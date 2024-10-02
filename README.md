@@ -1,6 +1,6 @@
 # Waypoint-14
 
-Waypoint-14 is an Einstein Engines (read below) fork; focusing on MRP-HRP event-focused, storyteller-led "sessions" played weekly with the main focus on players navigating an interesting narrative-led world and creating their own stories with the tools given to them.
+Waypoint-14 is an [Einstein Engines](https://github.com/Simple-Station/Einstein-Engines) (read below) fork; focusing on MRP-HRP event-focused, storyteller-led "sessions" played weekly with the main focus on players navigating an interesting narrative-led world and creating their own stories with the tools given to them.
 
 It takes place in the year 2324 (current date); following the aftermath of the Second Contact War. The Inter-Galactic Highspeed FTL Relay has been nearly fully annihilated, leaving travel times from the Sol Systems to the Frontier Colonies rising from a few days; to several months. The lower speed leaves merchants and transport vessels vunerable to piracy and interception, as well as vastly complicating the logistics of travel. The Corporate Coalition (CC) has formed from a collective of defense, research, transport and mining companies to build a network of Waypoint stations to secure the vast swathes of unprotected space; as well as easing the logistic load of any shipping between the two sectors.
 

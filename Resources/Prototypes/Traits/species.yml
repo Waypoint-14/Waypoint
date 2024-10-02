@@ -60,3 +60,14 @@
       traits:
         - Swashbuckler
         - Spearmaster
+
+- type: trait
+  id: ShadowkinBlackeye
+  category: Mental
+  points: 4
+  components:
+    - type: ShadowkinBlackeye
+  requirements:
+    - !type:CharacterSpeciesRequirement
+      species:
+        - Shadowkin

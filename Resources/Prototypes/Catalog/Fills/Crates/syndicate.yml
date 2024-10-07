@@ -1,8 +1,8 @@
 - type: entity
   id: CrateSyndicateSurplusBundle
   parent: CrateSyndicate
-  name: Syndicate surplus crate
-  description: Contains 50 telecrystals worth of completely random Syndicate items. It can be useless junk or really good.
+  name: surplus crate
+  description: Contains 50 telecrystals worth of completely random operative items. It can be useless junk or really good.
   components:
     - type: SurplusBundle
       totalPrice: 50
@@ -25,8 +25,8 @@
 - type: entity
   id: CrateSyndicateSuperSurplusBundle
   parent: CrateSyndicate
-  name: Syndicate super surplus crate
-  description: Contains 125 telecrystals worth of completely random Syndicate items.
+  name: super surplus crate
+  description: Contains 125 telecrystals worth of completely random operative items.
   components:
     - type: SurplusBundle
       totalPrice: 125

@@ -155,8 +155,8 @@
 - type: entity
   parent: ClothingShoesBaseWinterBoots
   id: ClothingShoesBootsWinterSyndicate
-  name: syndicate's winter boots
-  description: Durable heavy boots, looks like merch from "Syndieland"
+  name: winter boots
+  description: Durable heavy boots, looks like merch.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/winterbootssyndicate.rsi

@@ -23,8 +23,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineHeadOfPersonnel
-  name: head of personnel figure
-  description: A figurine depicting the glorious head of all personnel, away from their office as usual.
+  name: resoure coordinator figure
+  description: A figurine depicting the glorious head of all resources, away from their office as usual.
   components:
   - type: Sprite
     state: hop
@@ -96,7 +96,7 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineCaptain
-  name: captain figure
+  name: station commander figure
   description: A figurine depicting the standard outfit of a captain belonging to a civilian-sector Nanotrasen vessel.
   components:
   - type: Sprite
@@ -186,8 +186,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineEngineer
-  name: station engineer figure
-  description: A figurine depicting a Station Engineer holding a crowbar at-ready.
+  name: maintenance technician figure
+  description: A figurine depicting a maintenance technician holding a crowbar at-ready.
   components:
   - type: Sprite
     state: engineer
@@ -204,8 +204,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineResearchDirector
-  name: mystagogue figure # DeltaV - Epistemics Department replacing Science
-  description: A figurine depicting the glorious head of the Epistemics department. # DeltaV - Epistemics Department replacing Science
+  name: chief science officer figure
+  description: A figurine depicting the glorious head of the Science department.
   components:
   - type: Sprite
     state: rd
@@ -312,7 +312,7 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineNukie
-  name: syndicate operative figure
+  name: bolite operative figure
   description: A figurine depicting someone in a blood-red hardsuit, similar to what someone on a nuclear operative team might wear.
   components:
   - type: Sprite
@@ -321,7 +321,7 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineNukieElite
-  name: elite syndicate operative figure
+  name: elite bolite operative figure
   description: A figurine depicting someone in an elite blood-red hardsuit, similar to what someone on a nuclear operative team might wear.
   components:
   - type: Sprite
@@ -330,7 +330,7 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineNukieCommander
-  name: syndicate operative commander figure
+  name: bolite operative commander figure
   description: A figurine depicting someone in a beefed-up blood-red hardsuit, similar to what the commander of a nuclear operative team might wear.
   components:
   - type: Sprite
@@ -339,8 +339,8 @@
 - type: entity
   parent: BaseFigurine
   id: ToyFigurineFootsoldier
-  name: syndicate footsoldier figure
-  description: A figurine depicting the outfit of a syndicate footsoldier.
+  name: bolite footsoldier figure
+  description: A figurine depicting the outfit of a bolite footsoldier.
   components:
   - type: Sprite
     state: footsoldier

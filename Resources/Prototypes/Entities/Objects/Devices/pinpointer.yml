@@ -49,7 +49,7 @@
     targetName: nuclear authentication disk
 
 - type: entity
-  name: syndicate pinpointer
+  name: operative pinpointer
   description: Produced specifically for nuclear operative missions, get that disk!
   id: PinpointerSyndicateNuclear
   parent: PinpointerBase

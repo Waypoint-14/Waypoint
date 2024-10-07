@@ -73,7 +73,7 @@
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/science.rsi
   - type: PaintableAirlock
-    department: Epistemics
+    department: Science
   - type: Wires
     layoutId: AirlockScience
 
@@ -227,7 +227,7 @@
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Glass/science.rsi
   - type: PaintableAirlock
-    department: Epistemics
+    department: Science
   - type: Wires
     layoutId: AirlockScience
 

@@ -281,7 +281,7 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: SyndicateCommsComputerCircuitboard
-  name: syndicate communications computer board
+  name: bolite communications computer board
   description: A computer printed circuit board for a syndicate communications console.
   components:
     - type: ComputerBoard
@@ -359,7 +359,7 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: SyndicateShuttleConsoleCircuitboard
-  name: syndicate shuttle console board
+  name: bolite shuttle console board
   description: A computer printed circuit board for a syndicate shuttle console.
   components:
     - type: ComputerBoard
@@ -394,7 +394,7 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: ComputerIFFSyndicateCircuitboard
-  name: syndicate IFF console board
+  name: bolite IFF console board
   description: Allows you to control the IFF and stealth characteristics of this vessel.
   components:
     - type: ComputerBoard

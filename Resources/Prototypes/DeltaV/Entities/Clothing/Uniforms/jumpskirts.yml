@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtHoPMess
-  name: head of personnel's mess kit
+  name: resource coordinator's mess kit
   description: A swanky uniform with tasteful gold and red trim. Keep your latte away from this.
   components:
   - type: Sprite
@@ -87,7 +87,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpskirtCentcomDirector
   name: director's jumpskirt
-  description: A sharp and professional jumpskirt worn by a high-ranking member of Central Command.
+  description: A sharp and professional jumpskirt worn by a high-ranking member of the Corporate Coalition.
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Uniforms/Jumpskirt/centcom_officer.rsi

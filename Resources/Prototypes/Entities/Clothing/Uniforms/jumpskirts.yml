@@ -25,7 +25,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtCaptain
-  name: captain's jumpskirt
+  name: station commander's jumpskirt
   description: It's a blue jumpskirt with some gold markings denoting the rank of "Captain".
   components:
   - type: Sprite
@@ -168,7 +168,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtHoP
-  name: head of personnel's jumpskirt
+  name: resoure coordinator's jumpskirt
   description: Rather bland and inoffensive. Perfect for vanishing off the face of the universe.
   components:
   - type: Sprite
@@ -353,8 +353,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtResearchDirector
-  name: mystagogue's turtleneck # DeltaV - Epistemics Department replacing Science
-  description: It's a turtleneck worn by those with the know-how to achieve the position of Mystagogue. Its fabric provides minor protection from biological contaminants. # DeltaV - Epistemics Department replacing Science
+  name: schief science officer's turtleneck # DeltaV - Epistemics Department replacing Science
+  description: It's a turtleneck worn by those with the know-how to achieve the position of Chief Science Officer. Its fabric provides minor protection from biological contaminants. # DeltaV - Epistemics Department replacing Science
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/rnd.rsi
@@ -441,7 +441,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtCapFormalDress
-  name: captain's formal dress
+  name: station commander's formal dress
   description: A dress for special occasions.
   components:
   - type: Sprite
@@ -452,7 +452,7 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtCentcomFormalDress
-  name: central command formal dress
+  name: corporate coalition formal dress
   description: A dress for special occasions
   components:
   - type: Sprite
@@ -475,7 +475,7 @@
   parent: UnsensoredClothingUniformSkirtBase
   id: ClothingUniformJumpskirtOperative
   name: operative jumpskirt
-  description: Uniform for elite syndicate operatives performing tactical operations in deep space.
+  description: Uniform for elite operatives performing tactical operations in deep space.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/operative_s.rsi
@@ -588,8 +588,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtSyndieFormalDress
-  name: syndicate formal dress
-  description: "The syndicate's uniform is made in an elegant style, it's even a pity to do dirty tricks in this."
+  name: formal dress
+  description: "The uniform is made in an elegant style, it's even a pity to do dirty tricks in this."
   components:
     - type: Sprite
       sprite: Clothing/Uniforms/Jumpskirt/syndieformaldress.rsi

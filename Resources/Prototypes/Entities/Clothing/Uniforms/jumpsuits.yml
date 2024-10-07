@@ -49,7 +49,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCaptain
-  name: captain's jumpsuit
+  name: station commander's jumpsuit
   description: It's a blue jumpsuit with some gold markings denoting the rank of "Captain".
   components:
   - type: Sprite
@@ -115,8 +115,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCentcomAgent
-  name: CentCom agent's jumpsuit
-  description: A suit worn by CentCom's legal team. Smells of burnt coffee.
+  name: corporate coalition agent's jumpsuit
+  description: A suit worn by CorpCol's legal team. Smells of burnt coffee.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/centcom_agent.rsi
@@ -126,8 +126,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCentcomOfficial
-  name: CentCom official's jumpsuit
-  description: It's a jumpsuit worn by CentCom's officials.
+  name: corporate coalition official's jumpsuit
+  description: It's a jumpsuit worn by corporate coalition's officials.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/centcom_official.rsi
@@ -137,8 +137,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCentcomOfficer
-  name: CentCom officer's jumpsuit
-  description: It's a jumpsuit worn by CentCom Officers.
+  name: corporate coalition officer's jumpsuit
+  description: It's a jumpsuit worn by corporate coalition officers.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/centcom_officer.rsi
@@ -300,7 +300,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitHoP
-  name: head of personnel's jumpsuit
+  name: resoure coordinator's jumpsuit
   description: Rather bland and inoffensive. Perfect for vanishing off the face of the universe.
   components:
   - type: Sprite
@@ -506,8 +506,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitResearchDirector
-  name: mystagogue's turtleneck # DeltaV - Epistemics Department replacing Science
-  description: It's a turtleneck worn by those with the know-how to achieve the position of Mystagogue. Its fabric provides minor protection from biological contaminants. # DeltaV - Epistemics Department replacing Science
+  name: Chief Science Officer's turtleneck # DeltaV - Epistemics Department replacing Science
+  description: It's a turtleneck worn by those with the know-how to achieve the position of Chief Science Officer. Its fabric provides minor protection from biological contaminants. # DeltaV - Epistemics Department replacing Science
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/rnd.rsi
@@ -682,7 +682,7 @@
 - type: entity
   parent: UnsensoredClothingUniformBase
   id: ClothingUniformJumpsuitPyjamaSyndicateBlack
-  name: black syndicate pyjamas
+  name: black pyjamas
   description: For those long nights in perma.
   components:
   - type: Sprite
@@ -693,7 +693,7 @@
 - type: entity
   parent: UnsensoredClothingUniformBase
   id: ClothingUniformJumpsuitPyjamaSyndicatePink
-  name: pink syndicate pyjamas
+  name: pink pyjamas
   description: For those long nights in perma.
   components:
   - type: Sprite
@@ -704,7 +704,7 @@
 - type: entity
   parent: UnsensoredClothingUniformBase
   id: ClothingUniformJumpsuitPyjamaSyndicateRed
-  name: red syndicate pyjamas
+  name: red pyjamas
   description: For those long nights in perma.
   components:
   - type: Sprite
@@ -726,7 +726,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCapFormal
-  name: captain's formal suit
+  name: station commander's formal suit
   description: A suit for special occasions.
   components:
   - type: Sprite
@@ -737,7 +737,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCentcomFormal
-  name: central command formal suit
+  name: corporate coalition formal suit
   description: A suit for special occasions.
   components:
   - type: Sprite
@@ -885,7 +885,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitERTChaplain
   name: ERT chaplain uniform
-  description: A special suit made for Central Command's elite chaplain corps.
+  description: A special suit made for the Corporate Coalition's elite chaplain corps.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/ert_chaplain.rsi
@@ -896,7 +896,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitERTEngineer
   name: ERT engineering uniform
-  description: A special suit made for the elite engineers under CentCom.
+  description: A special suit made for the elite engineers under CorpoCol.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/ert_engineer.rsi
@@ -907,7 +907,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitERTJanitor
   name: ERT janitorial uniform
-  description: A special suit made for the elite janitors under CentCom.
+  description: A special suit made for the elite janitors under CorpCol.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/ert_janitor.rsi
@@ -918,7 +918,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitERTLeader
   name: ERT leader uniform
-  description: A special suit made for the best of the elites under CentCom.
+  description: A special suit made for the best of the elites under the corporate coalition.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/ert_leader.rsi
@@ -929,7 +929,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitERTMedic
   name: ERT medical uniform
-  description: A special suit made for the elite medics under CentCom.
+  description: A special suit made for the elite medics under the corporate coalition.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/ert_medic.rsi
@@ -940,7 +940,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitERTSecurity
   name: ERT security uniform
-  description: A special suit made for the elite security under CentCom.
+  description: A special suit made for the elite security under CorpCol.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/ert_security.rsi
@@ -1043,8 +1043,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSyndieFormal
-  name: syndicate formal suit
-  description: "The syndicate's uniform is made in an elegant style, it's even a pity to do dirty tricks in this."
+  name: formal suit
+  description: "The uniform is made in an elegant style, it's even a pity to do dirty tricks in this."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/syndieformal.rsi

@@ -251,7 +251,7 @@
       departments:
         - Civilian
         - Medical
-        - Epistemics
+        - Science
     - !type:CharacterDepartmentRequirement
       inverted: true
       departments:
@@ -271,7 +271,7 @@
       departments:
         - Civilian
         - Medical
-        - Epistemics
+        - Science
     - !type:CharacterDepartmentRequirement
       inverted: true
       departments:
@@ -400,7 +400,7 @@
     - !type:CharacterDepartmentRequirement
       departments:
         - Civilian
-        - Epistemics
+        - Science
     - !type:CharacterDepartmentRequirement
       inverted: true
       departments:
@@ -419,7 +419,7 @@
     - !type:CharacterDepartmentRequirement
       departments:
         - Civilian
-        - Epistemics
+        - Science
     - !type:CharacterDepartmentRequirement
       inverted: true
       departments:

@@ -12,7 +12,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHoodMysta
-  name: mystagogue's muffin cap # Delta V - Mystagogue new hat
+  name: chief science officer's muffin cap # Delta V - Mystagogue new hat
   description: Contrary to its silly name, it's actually a symbol of great academic achievement.
   components:
   - type: Sprite
@@ -174,7 +174,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretCentcomm
-  name: CentCom beret
+  name: CorpCol beret
   description: A green beret with an admiral's rank emblem.
   components:
   - type: Sprite
@@ -185,8 +185,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretMysta
-  name: mystagogue's beret
-  description: A purple beret with a blue epistemics emblem. Mystical and stylish.
+  name: chief science officer's beret
+  description: A purple beret with a blue science emblem. Mystical and stylish.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Head/Hats/beret_mysta.rsi

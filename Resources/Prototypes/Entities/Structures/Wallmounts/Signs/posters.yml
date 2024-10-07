@@ -89,7 +89,7 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandSyndicateRecruitment
-  name: "Syndicate Recruitment"
+  name: "Operative Recruitment"
   description: "See the galaxy! Shatter corrupt megacorporations! Join today!"
   components:
   - type: Sprite
@@ -180,7 +180,7 @@
   parent: PosterBase
   id: PosterContrabandTools
   name: "Tools"
-  description: "This poster looks like an advertisement for tools, but is in fact a subliminal jab at the tools at CentCom."
+  description: "This poster looks like an advertisement for tools, but is in fact a subliminal jab at the tools at CorpCol."
   components:
   - type: Sprite
     state: poster15_contraband
@@ -216,7 +216,7 @@
   parent: PosterBase
   id: PosterContrabandLamarr
   name: "Lamarr"
-  description: "This poster depicts Lamarr. Probably made by a traitorous Mystagogue." # DeltaV - Epistemics Department replacing Science
+  description: "This poster depicts Lamarr. Probably made by a traitorous Chief Sciecne Officer." # DeltaV - Epistemics Department replacing Science
   components:
   - type: Sprite
     state: poster19_contraband
@@ -243,7 +243,7 @@
   parent: PosterBase
   id: PosterContrabandKosmicheskayaStantsiya
   name: "Kosmicheskaya Stantsiya 13 Does Not Exist"
-  description: "A poster mocking CentCom's denial of the existence of the derelict station near Space Station 13."
+  description: "A poster mocking CorpCol's denial of the existence of the derelict station near Space Station 13."
   components:
   - type: Sprite
     state: poster22_contraband
@@ -296,8 +296,8 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandSyndicatePistol
-  name: "Syndicate Pistol"
-  description: "A poster advertising syndicate pistols as being 'classy as fuck'. It's covered in faded gang tags."
+  name: "Operative Pistol"
+  description: "A poster advertising operative pistols as being 'classy as fuck'. It's covered in faded gang tags."
   components:
   - type: Sprite
     state: poster28_contraband
@@ -351,7 +351,7 @@
   parent: PosterBase
   id: PosterContrabandFreeDrone
   name: "Free Drone"
-  description: "This poster commemorates the bravery of the rogue drone; once exiled, and then ultimately destroyed by CentCom."
+  description: "This poster commemorates the bravery of the rogue drone; once exiled, and then ultimately destroyed by CorpCol."
   components:
   - type: Sprite
     state: poster35_contraband
@@ -449,7 +449,7 @@
 - type: entity
   parent: PosterBase
   id: PosterContrabandFreeSyndicateEncryptionKey
-  name: "Free Syndicate Encryption Key"
+  name: "Free Operative Encryption Key"
   description: "A poster about traitors begging for more."
   components:
   - type: Sprite
@@ -468,7 +468,7 @@
   parent: PosterBase
   id: PosterContrabandTheBigGasTruth
   name: "The Big Gas Giant Truth"
-  description: "Don't believe everything you see on a poster, patriots. All the lizards at central command don't want to answer this SIMPLE QUESTION: WHERE IS THE GAS MINER MINING FROM, CENTCOM?"
+  description: "Don't believe everything you see on a poster, patriots. All the lizards at corporate coalition don't want to answer this SIMPLE QUESTION: WHERE IS THE GAS MINER MINING FROM, CorpCol?"
   components:
   - type: Sprite
     state: poster48_contraband
@@ -541,7 +541,7 @@
   parent: PosterBase
   id: PosterContrabandMoth
   name: "Syndie Moth - Nuclear Operation"
-  description: "A Syndicate-commissioned poster that uses Syndie Moth™ to tell the viewer to keep the nuclear authentication disk unsecured. \"Peace was never an option!\" No good employee would listen to this nonsense."
+  description: "A Bolite-commissioned poster that uses Syndie Moth™ to tell the viewer to keep the nuclear authentication disk unsecured. \"Peace was never an option!\" No good employee would listen to this nonsense."
   components:
     - type: Sprite
       state: poster57_contraband

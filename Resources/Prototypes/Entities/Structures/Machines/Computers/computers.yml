@@ -102,8 +102,8 @@
 - type: entity
   parent: BaseComputerShuttle
   id: ComputerShuttleSyndie
-  name: syndicate shuttle console
-  description: Used to pilot a syndicate shuttle.
+  name: operative shuttle console
+  description: Used to pilot a hostile operative shuttle.
   components:
   - type: Sprite
     layers:
@@ -595,7 +595,7 @@
 - type: entity
   parent: ComputerComms
   id: SyndicateComputerComms
-  name: syndicate communications computer
+  name: operative communications computer
   description: A computer capable of remotely hacking into the station's communications systems. Using this to make an announcement will alert the station to your presence.
   components:
   - type: Sprite

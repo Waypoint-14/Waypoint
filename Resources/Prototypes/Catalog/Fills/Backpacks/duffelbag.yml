@@ -33,7 +33,7 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateMedicalBundle
   id: ClothingBackpackDuffelSyndicateFilledMedical
-  name: syndicate surgical duffel bag
+  name: surgical duffel bag
   description: A large duffel bag containing a full suite of surgical tools.
   components:
   - type: StorageFill
@@ -147,8 +147,8 @@
 - type: entity
   parent: ClothingBackpackDuffel
   id: ClothingBackpackDuffelSyndicateCostumeCentcom
-  name: CentCom official costume duffel bag
-  description: "Contains a full CentCom Official uniform set, headset and clipboard included. Encryption keys and ID access are not included."
+  name: CoprCol official costume duffel bag
+  description: "Contains a full CorpCol Official uniform set, headset and clipboard included. Encryption keys and ID access are not included."
   suffix: DO NOT MAP
   components:
   - type: Tag
@@ -197,7 +197,7 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicatePyjamaBundle
-  name: syndicate pyjama duffel bag
+  name: pyjama duffel bag
   description: Contains 3 pairs of syndicate pyjamas and 3 plushies for the ultimate sleepover.
   components:
   - type: Storage
@@ -223,7 +223,7 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateC4tBundle
-  name: syndicate C-4 bundle
+  name: C-4 bundle
   description: "Contains a lot of C-4 charges."
   components:
   - type: StorageFill
@@ -252,8 +252,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateEVABundle
-  name: syndicate EVA bundle
-  description: "Contains the Syndicate approved EVA suit."
+  name: EVA bundle
+  description: "Contains the blood-red EVA suit."
   components:
   - type: StorageFill
     contents:
@@ -267,8 +267,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateHardsuitBundle
-  name: syndicate hardsuit bundle
-  description: "Contains the Syndicate's signature blood red hardsuit."
+  name: hardsuit bundle
+  description: "Contains the blood-red signature blood red hardsuit."
   components:
   - type: StorageFill
     contents:
@@ -281,8 +281,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateEliteHardsuitBundle
-  name: syndicate elite hardsuit bundle
-  description: "Contains the Syndicate's elite hardsuit, which comes with some more stuff in it."
+  name: elite hardsuit bundle
+  description: "Contains the Bolite elite hardsuit, which comes with some more stuff in it."
   components:
   - type: StorageFill
     contents:
@@ -295,7 +295,7 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateHardsuitExtrasBundle
-  name: syndicate hardsuit extras bundle
+  name: bolite hardsuit extras bundle
   description: "Contains stuff that you will absolutely want to have when purchasing a hardsuit."
   components:
   - type: StorageFill
@@ -308,7 +308,7 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelZombieBundle
-  name: syndicate zombie bundle
+  name: bolite zombie bundle
   description: "An all-in-one kit for unleashing the undead upon a station."
   components:
   - type: StorageFill

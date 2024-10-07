@@ -1437,7 +1437,7 @@
   parent: VendingMachine
   id: VendingMachineGames
   name: Good Clean Fun
-  description: Vends things that the Captain and Head of Personnel are probably not going to appreciate you fiddling with instead of your job...
+  description: Vends things that the Station Commander and Resource Coordinator are probably not going to appreciate you fiddling with instead of your job...
   components:
   - type: VendingMachine
     pack: GoodCleanFunInventory
@@ -2199,7 +2199,7 @@
   parent: VendingMachine
   id: VendingMachineCentDrobe
   name: CentDrobe
-  description: A one-of-a-kind vending machine for all your centcom aesthetic needs!
+  description: A one-of-a-kind vending machine for all your CorpCol aesthetic needs!
   components:
   - type: VendingMachine
     pack: CentDrobeInventory

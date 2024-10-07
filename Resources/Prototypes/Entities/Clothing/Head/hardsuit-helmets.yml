@@ -421,7 +421,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitSyndieElite
-  name: syndicate elite helmet
+  name: bolite elite helmet
   description: An elite version of the blood-red hardsuit's helmet, with improved armor and fireproofing. Property of Gorlex Marauders.
   components:
   - type: BreathMask
@@ -448,8 +448,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitSyndieCommander
-  name: syndicate commander helmet
-  description: A bulked up version of the blood-red hardsuit's helmet, purpose-built for the commander of a syndicate operative squad. Has significantly improved armor for those deadly front-lines firefights.
+  name: bolite commander helmet
+  description: A bulked up version of the blood-red hardsuit's helmet, purpose-built for the commander of a bolite operative squad. Has significantly improved armor for those deadly front-lines firefights.
   components:
   - type: BreathMask
   - type: Sprite

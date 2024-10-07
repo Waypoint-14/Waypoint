@@ -146,7 +146,7 @@
   parent: BaseSubdermalImplant
   id: UplinkImplant
   name: uplink implant
-  description: This implant lets the user access a hidden Syndicate uplink at will.
+  description: This implant lets the user access a hidden uplink at will.
   noSpawn: true
   components:
   - type: SubdermalImplant
@@ -298,7 +298,7 @@
   parent: BaseSubdermalImplant
   id: DeathRattleImplant
   name: death rattle implant
-  description: This implant will inform the Syndicate radio channel should the user fall into critical condition or die.
+  description: This implant will inform the Operative radio channel should the user fall into critical condition or die.
   noSpawn: true
   components:
     - type: SubdermalImplant

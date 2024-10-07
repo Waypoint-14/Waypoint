@@ -2,13 +2,16 @@
 
 ﻿[color=#ff0000]Admins will assume you have read the rules; not being aware of general provisions will not excuse anything.[/color]
 
-[color=#ffff00]Waypoint-14. Immerse yourself into your character. Do your job. Your goal is to work towards creating an interesting story for everyone involved.[/color]
+[color=#ffff00]Immerse yourself into your character. Do your job. Your goal is to work towards creating an interesting story for everyone involved.[/color]
 
 If you have any questions about these rules, please use the admin help (ahelp) menu by hitting F1 in-game or clicking the “Ahelp” button in the lobby.
 
-[color=#a4885c]0.[/color] Admins can disregard any and all of these rules if they deem it in the best interest of the current round, server, and/or community at large.
+[color=#ffff00]0.[/color] Admins can disregard any and all of these rules if they deem it in the best interest of the current round, server, and/or community at large.
     - Administrators will be held fully accountable for their actions if they exercise this privilege.
     - All of these rules apply as they are intended. Every example of a rule break cannot be defined as written, therefore, enforcement of the rules is subject to staff interpretation of the rule's intention.
+	
+[color=#a4885c]0.[/color] GameMasters are in charge of the rounds' narrative direction, you are expected to co-operate with them where necessary should you be participating to any degree in events; whether as an actor or just someone involved.
+    - If you have an idea for the round; to make it a more memorable story, feel free to ahelp and discuss making your idea a reality.
 
 [color=#a4885c]1.[/color] Erotic Roleplay (ERP), erotic content, or 18+ sexual content is [color=#ff0000]not allowed under any circumstance[/color]. This includes comments not explicitly sexual in nature that contain words, phrases, or ideations that are deemed inappropriate. [color=#ff0000]If roleplay reaches a point where it has become sexual and/or uncomfortable, immediately stop and contact an administrator.[/color]
 
@@ -38,7 +41,7 @@ If you have any questions about these rules, please use the admin help (ahelp) m
     - You are allowed to have knowledge of past experiences with someone else in prior shifts. This does not give you permission to hold a grudge against someone that results in you treating them differently in an unfair way (i.e. Meta-Grudging).
     - Specific players who were antagonists in previous rounds must not be treated differently because of it.
 
-[color=#a4885c]5.[/color] If a player dies and is brought back by way of cloning or borgification, they forget the last five minutes leading up to their death and cannot describe who or what killed them.
+[color=#a4885c]5.[/color] If a player dies and is brought back from death, they forget the last five minutes leading up to their death and cannot describe who or what killed them aside from vague details.
 
 [color=#a4885c]7.[/color] Follow Naming Conventions
     - In-character names must fit the server standards of:

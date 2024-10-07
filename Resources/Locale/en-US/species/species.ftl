@@ -8,10 +8,10 @@ species-name-reptilian = Unathi
 species-name-slime = Ethereal
 species-name-diona = Diona
 # WYPT-14
-species-name-arachnid = Arachna
+species-name-arachnid = Arachnara
 species-name-arachne = Arachne
 species-name-moth = Moth Person
 species-name-skeleton = Skeleton
 species-name-vox = Vox
 # WYPT-14
-species-name-ipc = Integrated Positronic Chassis
+species-name-ipc = IPC

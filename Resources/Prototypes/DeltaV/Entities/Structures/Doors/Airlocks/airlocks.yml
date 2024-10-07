@@ -18,5 +18,5 @@
   - type: Sprite
     sprite: DeltaV/Structures/Doors/Airlocks/Glass/justice.rsi
   - type: PaintableAirlock
-    department: Justice
+    department: Command
 

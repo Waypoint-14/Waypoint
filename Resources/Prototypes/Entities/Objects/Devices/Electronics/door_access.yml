@@ -309,7 +309,7 @@
   suffix: Justice, Locked
   components:
   - type: AccessReader
-    access: [["Justice"]]
+    access: [["Command"]]
 
 - type: entity
   parent: DoorElectronics

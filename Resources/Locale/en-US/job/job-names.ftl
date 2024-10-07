@@ -23,7 +23,7 @@ job-name-captain = Captain
 job-name-serviceworker = Service Worker
 job-name-reporter = Reporter
 job-name-musician = Musician
-job-name-librarian = Cataloguer
+job-name-librarian = Librarian
 # DeltaV - Changed Lawyer to Attorney
 # job-name-lawyer = Lawyer
 job-name-mime = Mime

@@ -13155,7 +13155,7 @@ entities:
   - uid: 206
     components:
     - type: MetaData
-      name: Mystagogue's Office
+      name: Chief Science Officer's Office
     - type: Transform
       pos: 26.5,-30.5
       parent: 2
@@ -45890,7 +45890,7 @@ entities:
   - uid: 6245
     components:
     - type: MetaData
-      name: mystagogue's winter coat
+      name: Chief Science Officer's winter coat
     - type: Transform
       pos: 31.149471,42.5697
       parent: 2
@@ -52957,7 +52957,7 @@ entities:
       pos: 23.5,-31.5
       parent: 2
     - type: FaxMachine
-      name: Mystagogue
+      name: Chief Science Officer
   - uid: 7240
     components:
     - type: Transform

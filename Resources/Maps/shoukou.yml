@@ -5209,7 +5209,7 @@ entities:
   - uid: 1956
     components:
     - type: MetaData
-      name: head of personnel's office
+      name: resource coordinator's office
     - type: Transform
       pos: -15.5,-17.5
       parent: 34
@@ -36051,7 +36051,7 @@ entities:
       pos: -35.5,-4.5
       parent: 34
     - type: FaxMachine
-      name: Epi, Mystagogue
+      name: Science, Chief Science Officer
   - uid: 7544
     components:
     - type: Transform
@@ -72494,8 +72494,8 @@ entities:
   - uid: 1993
     components:
     - type: MetaData
-      desc: A sign designating the head of personnel's office.
-      name: head of personnel sign
+      desc: A sign designating the resource coordinator's office.
+      name: resource coordinator's sign
     - type: Transform
       pos: -15.5,-20.5
       parent: 34

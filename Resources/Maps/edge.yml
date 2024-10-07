@@ -47099,7 +47099,7 @@ entities:
       pos: 20.5,-6.5
       parent: 2
     - type: FaxMachine
-      name: head of personnel
+      name: resource coordinator
   - uid: 7311
     components:
     - type: Transform
@@ -94211,7 +94211,7 @@ entities:
       setupAvailableNetworks:
       - SurveillanceCameraService
       nameSet: True
-      id: head of personnel's office
+      id: resource coordinator's office
 - proto: SurveillanceCameraSupply
   entities:
   - uid: 14268

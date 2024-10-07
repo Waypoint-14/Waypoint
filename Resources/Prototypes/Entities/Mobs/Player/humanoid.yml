@@ -472,7 +472,7 @@
 ## Central Command
 
 - type: entity
-  name: CentCom official
+  name: CorpCol official
   id: RandomHumanoidSpawnerCentcomOfficial
   components:
     - type: Sprite

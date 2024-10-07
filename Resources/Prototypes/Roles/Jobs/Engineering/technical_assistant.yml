@@ -19,6 +19,7 @@
   - Maintenance
   - Engineering
   - External
+  setPreference: false # WYPT-14
 
 - type: startingGear
   id: TechnicalAssistantGear

@@ -3,19 +3,11 @@
   name: job-name-guard
   description: job-description-guard
   playTimeTracker: JobPrisonGuard
-  requirements:
-    - !type:CharacterOverallTimeRequirement
-      min: 18000
-    - !type:DepartmentTimeRequirement
-      department: Security
-      min: 14400
   startingGear: PrisonGuardGear
   alwaysUseSpawner: true
-  canBeAntag: false
+  canBeAntag: true # WYPT-14
   icon: "JobIconPrisonGuard"
   supervisors: job-supervisors-warden
-  setPreference: true
-#  whitelistRequired: true
   access:
   - Security
   #- Brig #Delta V: Removed brig access
@@ -23,6 +15,7 @@
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
+  setPreference: false # WYPT-14
 
 
 - type: startingGear

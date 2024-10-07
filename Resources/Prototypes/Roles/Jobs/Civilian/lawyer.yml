@@ -12,11 +12,12 @@
       min: 14400 # 4 hours
   startingGear: LawyerGear
   icon: "JobIconLawyer"
-  supervisors: job-supervisors-cj  # Delta V - Change supervisor to chief justice
+  supervisors: job-supervisors-corporate  # Delta V - Change supervisor to chief justice
   access:
   - Service
   - Lawyer
   - Maintenance
+  setPreference: false
 
 - type: startingGear
   id: LawyerGear

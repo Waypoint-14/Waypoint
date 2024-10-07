@@ -3,9 +3,6 @@
   name: job-name-prosecutor
   description: job-description-prosecutor
   playTimeTracker: JobProsecutor
-  requirements:
-    - !type:CharacterOverallTimeRequirement
-      min: 36000 # 10 hrs
   startingGear: ProsecutorGear
   icon: "JobIconProsecutor"
   supervisors: job-supervisors-cj
@@ -14,6 +11,7 @@
   - Justice
   - Security
   - Maintenance
+  setPreference: false # WYPT-14
 
 - type: startingGear
   id: ProsecutorGear

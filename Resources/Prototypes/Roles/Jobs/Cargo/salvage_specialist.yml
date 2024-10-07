@@ -18,6 +18,7 @@
   - Salvage
   - Maintenance
   - External
+  preference: false # WYPT-14
 
 - type: startingGear
   id: SalvageSpecialistGear

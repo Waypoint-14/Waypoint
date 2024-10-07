@@ -8,12 +8,7 @@
   canBeAntag: false
   icon: "JobIconGladiator"
   supervisors: job-supervisors-security
-  setPreference: true
-#  whitelistRequired: true
-  requirements:
-    - !type:DepartmentTimeRequirement
-      department: Security
-      min: 21600
+  setPreference: false # WYPT-14
   special:
   - !type:AddComponentSpecial
     components:

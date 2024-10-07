@@ -27,6 +27,7 @@
   - !type:AddComponentSpecial
     components:
     - type: CPRTraining
+  setPreference: false # WYPT-14
 
 - type: startingGear
   id: ParamedicGear

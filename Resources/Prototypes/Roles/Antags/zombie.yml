@@ -2,11 +2,8 @@
   id: InitialInfected
   name: roles-antag-initial-infected-name
   antagonist: true
-  setPreference: true
+  setPreference: false # WYPT14
   objective: roles-antag-initial-infected-objective
-  requirements:
-  - !type:CharacterOverallTimeRequirement # DeltaV - Playtime requirement
-    min: 43200 # DeltaV - 12 hours
 
 - type: antag
   id: Zombie

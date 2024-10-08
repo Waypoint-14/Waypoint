@@ -3,17 +3,17 @@
   copyright: "All songs used are produced by Danya Vodovoz, royalty free."
   source: "https://soundcloud.com/danyavodovoz"
 
-- files: ["Cuban Music by MokkaMusic.ogg"]
+- files: ["Cuban Music by MokkaMusic.ogg"] # WYPT14 ; adds custom tracks
   license: "CC-BY-NC-SA-3.0" # Youtube Audio Library License
   copyright: "Cuban Music by MokkaMusic"
   source: "https://www.youtube.com/watch?v=W_jqISSHQUM&list=PL1_1DVprLHlLqtV06NsouuhkkOLskfYpK&index=1"
-  
-- files: ["ChaCha Fontanez.ogg"]
+
+- files: ["ChaCha Fontanez.ogg"] # WYPT14 ; adds custom tracks
   license: "CC-BY-NC-SA-3.0" # Youtube Audio Library License
   copyright: "ChaCha Fontanez by Jimmy Fontanez"
   source: "https://www.youtube.com/watch?v=rk0k4EARoY8"
-  
-- files: ["Rico Yum by ianjamesrennie.ogg"]
+
+- files: ["Rico Yum by ianjamesrennie.ogg"] # WYPT14 ; adds custom tracks
   license: "CC-BY-NC-SA-3.0" # Pixabay Content License
   copyright: "Rico Yum by ianjamesrennie"
   source: https://pixabay.com/music/modern-jazz-rico-yum-11542/

@@ -8,3 +8,4 @@
   setPreference: true
   supervisors: job-supervisors-ce
   jobEntity: PlayerBorgGeneric
+  weight: 7 # WYPT14

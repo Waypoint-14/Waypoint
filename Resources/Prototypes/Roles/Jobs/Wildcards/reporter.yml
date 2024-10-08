@@ -6,6 +6,7 @@
   startingGear: ReporterGear
   icon: "JobIconReporter"
   supervisors: job-supervisors-corporate
+  weight: 8 # WYPT14
   access:
   - Service
   - Maintenance

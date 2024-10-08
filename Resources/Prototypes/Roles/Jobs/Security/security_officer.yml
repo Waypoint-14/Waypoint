@@ -7,6 +7,7 @@
   icon: "JobIconSecurityOfficer"
   supervisors: job-supervisors-hos
   canBeAntag: false
+  weight: 9 # WYPT14
   access:
   - Security
   #- Brig # Delta V: Removed

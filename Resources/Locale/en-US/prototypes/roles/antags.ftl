@@ -1,4 +1,4 @@
-﻿roles-antag-syndicate-agent-name = Hostile agent
+﻿roles-antag-syndicate-agent-name = Hostile Operative
 roles-antag-syndicate-agent-objective = Complete your objectives without being caught.
 
 roles-antag-initial-infected-name = Initial Infected
@@ -13,13 +13,13 @@ roles-antag-suspicion-innocent-objective = Discover and eliminate all traitors.
 roles-antag-suspicion-suspect-name = Suspect
 roles-antag-suspicion-suspect-objective = Kill the innocents.
 
-roles-antag-nuclear-operative-commander-name = Bolite Commander
+roles-antag-nuclear-operative-commander-name = Bolite Commando Leader
 roles-antag-nuclear-operative-commander-objective = Lead your goals.
 
-roles-antag-nuclear-operative-agent-name = Bolite operative agent
+roles-antag-nuclear-operative-agent-name = Bolite Commando Medic
 roles-antag-nuclear-operative-agent-objective = Like default operative, the team's treatment will have priority.
 
-roles-antag-nuclear-operative-name = Bolite operative
+roles-antag-nuclear-operative-name = Bolite Commando
 roles-antag-nuclear-operative-objective = Complete your goals.
 
 roles-antag-subverted-silicon-name = Subverted silicon

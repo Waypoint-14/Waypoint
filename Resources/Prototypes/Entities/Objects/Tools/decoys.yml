@@ -57,7 +57,7 @@
   parent: BaseDecoy
   id: BalloonOperative
   name: operative balloon
-  description: Upon closer inspection, this Syndicate operative is actually a balloon.
+  description: Upon closer inspection, this Bolite operative is actually a balloon.
   components:
   - type: HandheldLight
     addPrefix: false
@@ -81,7 +81,7 @@
   parent: BaseDecoy
   id: BalloonAgent
   name: agent balloon
-  description: Upon closer inspection, this Syndicate agent is actually a balloon.
+  description: Upon closer inspection, this Bolite agent is actually a balloon.
   components:
   - type: HandheldLight
     addPrefix: false
@@ -104,7 +104,7 @@
   parent: BaseDecoy
   id: BalloonElite
   name: elite operative balloon
-  description: Upon closer inspection, this Syndicate elite operative is actually a balloon.
+  description: Upon closer inspection, this Bolite elite operative is actually a balloon.
   components:
   - type: HandheldLight
     addPrefix: false
@@ -127,7 +127,7 @@
   parent: BaseDecoy
   id: BalloonJuggernaut
   name: juggernaut balloon
-  description: Upon closer inspection, this Syndicate juggernaut is actually a balloon.
+  description: Upon closer inspection, this Bolite juggernaut is actually a balloon.
   components:
   - type: HandheldLight
     addPrefix: false
@@ -149,7 +149,7 @@
   parent: BaseDecoy
   id: BalloonCommander
   name: commander balloon
-  description: Upon closer inspection, this Syndicate commander is actually a balloon.
+  description: Upon closer inspection, this Bolite commander is actually a balloon.
   components:
   - type: HandheldLight
     addPrefix: false

@@ -3,12 +3,6 @@
   name: job-name-psychologist
   description: job-description-psychologist
   playTimeTracker: JobPsychologist
-  requirements:
-    - !type:CharacterOverallTimeRequirement
-      min: 36000 #DeltaV 10 hours
-    - !type:CharacterDepartmentTimeRequirement
-      department: Medical
-      min: 14400 #DeltaV 4 hrs
   startingGear: PsychologistGear
   icon: "JobIconPsychologist"
   supervisors: job-supervisors-cmo
@@ -18,6 +12,7 @@
   - Psychologist # DeltaV - Add Psychologist access
   extendedAccess:
   - Chemistry
+  setPreference: false # WYPT-14
 
 - type: startingGear
   id: PsychologistGear

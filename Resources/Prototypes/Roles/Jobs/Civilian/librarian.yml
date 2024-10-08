@@ -3,22 +3,9 @@
   name: job-name-librarian
   description: job-description-librarian
   playTimeTracker: JobLibrarian
-  requirements:
-    - !type:CharacterDepartmentTimeRequirement
-      department: Epistemics
-      min: 14400
-    - !type:CharacterLogicOrRequirement
-      requirements:
-        - !type:CharacterSpeciesRequirement
-          inverted: true
-          species:
-            - IPC
-        - !type:CharacterTraitRequirement
-          traits:
-            - AnomalousPositronics
   startingGear: LibrarianGear
   icon: "JobIconLibrarian"
-  supervisors: job-supervisors-rd
+  supervisors: job-supervisors-corporate
   access:
   - Research
   - Maintenance

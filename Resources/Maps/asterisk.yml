@@ -59868,7 +59868,7 @@ entities:
       setupAvailableNetworks:
       - SurveillanceCameraScience
       nameSet: True
-      id: office, mystagogue's
+      id: office, chief science officer's
   - uid: 9681
     components:
     - type: Transform

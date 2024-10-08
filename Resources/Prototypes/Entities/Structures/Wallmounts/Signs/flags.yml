@@ -30,8 +30,8 @@
 - type: entity
   parent: BaseFlag
   id: SyndieFlag
-  name: syndicate flag
-  description: "Smells bloody. Death to NT!"
+  name: operative flag
+  description: "Smells bloody. Death to the Corporate Coalition!"
   components:
   - type: Sprite
     state: syndie_flag

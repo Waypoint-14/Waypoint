@@ -2,7 +2,7 @@
   parent: ClothingHeadsetService
   id: ClothingHeadsetHoP
   name: hop headset
-  description: A headset used by the head of personnel.
+  description: A headset used by the resource coordinator.
   components:
   - type: ContainerFill
     containers:
@@ -10,11 +10,12 @@
       - EncryptionKeyService
       - EncryptionKeyCommand
       - EncryptionKeyCommon
+      - EncryptionKeyCargo
 
 - type: entity
   parent: ClothingHeadsetAlt
   id: ClothingHeadsetAltService
-  name: head of personnel's over-ear headset
+  name: resource coordinator's over-ear headset
   components:
   - type: ContainerFill
     containers:
@@ -22,6 +23,7 @@
       - EncryptionKeyService
       - EncryptionKeyCommand
       - EncryptionKeyCommon
+      - EncryptionKeyCargo
   - type: Sprite
     sprite: DeltaV/Clothing/Ears/Headsets/service.rsi
   - type: Clothing
@@ -31,7 +33,7 @@
   parent: ClothingHeadsetAltSyndicate
   id: ClothingHeadsetAltSyndicateListening
   name: blood-red over-ear interception headset
-  description: An advanced, modular syndicate interception intercom that fits over the head.
+  description: An advanced, modular operative interception intercom that fits over the head.
   components:
   - type: ContainerFill
     containers:

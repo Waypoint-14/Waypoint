@@ -75,7 +75,7 @@
 - type: entity
   id: LockerHeadOfPersonnel
   parent: LockerBaseSecure
-  name: head of personnel's locker
+  name: resource coordinator's locker
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -270,7 +270,7 @@
 - type: entity
   id: LockerResearchDirector
   parent: LockerBase
-  name: mystagogue's locker # DeltaV - Epistemics Department replacing Science
+  name: chief science officer's locker # DeltaV - Epistemics Department replacing Science
   components:
   - type: Appearance
   - type: EntityStorageVisuals

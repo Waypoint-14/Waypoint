@@ -4849,7 +4849,7 @@ entities:
   - uid: 1852
     components:
     - type: MetaData
-      name: 'Head Of Personnel '
+      name: 'Resource Coordinator'
     - type: Transform
       pos: 6.5,17.5
       parent: 31

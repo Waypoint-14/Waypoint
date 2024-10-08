@@ -352,7 +352,7 @@
 - type: entity
   id: SpawnPointStationEngineer
   parent: SpawnPointJobBase
-  name: stationengineer
+  name: maintenancetechnician
   components:
   - type: SpawnPoint
     job_id: StationEngineer
@@ -440,14 +440,14 @@
 - type: entity
   id: SpawnPointResearchDirector
   parent: SpawnPointJobBase
-  name: mystagogue # DeltaV - Epistemics Department replacing Science
+  name: chief science officer
   components:
   - type: SpawnPoint
     job_id: ResearchDirector
   - type: Sprite
     layers:
       - state: green
-      - sprite: DeltaV/Markers/jobs.rsi # DeltaV - Epistemics new labcoats
+      - sprite: DeltaV/Markers/jobs.rsi
         state: mystagogue
 
 - type: entity

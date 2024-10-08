@@ -38,7 +38,7 @@
         maxDistance: 5
 
 - type: entity
-  name: captain's rubber stamp
+  name: station commander's rubber stamp
   parent: RubberStampBase
   id: RubberStampCaptain
   suffix: DO NOT MAP
@@ -51,7 +51,7 @@
     state: stamp-cap
 
 - type: entity
-  name: CentCom rubber stamp
+  name: CorpCol rubber stamp
   parent: RubberStampBase
   id: RubberStampCentcom
   suffix: DO NOT MAP
@@ -119,7 +119,7 @@
     state: stamp-cmo
 
 - type: entity
-  name: head of personnel's rubber stamp
+  name: resource coordinator's rubber stamp
   parent: RubberStampBase
   id: RubberStampHop
   suffix: DO NOT MAP
@@ -172,7 +172,7 @@
       state: stamp-qm
 
 - type: entity
-  name: mystagogue's rubber stamp # DeltaV - Epistemics Department replacing Science
+  name: chief science officer's rubber stamp
   parent: RubberStampBase
   id: RubberStampRd
   suffix: DO NOT MAP
@@ -197,7 +197,7 @@
     state: stamp-trader
 
 - type: entity
-  name: syndicate rubber stamp
+  name: Bolite rubber stamp
   parent: RubberStampBase
   id: RubberStampSyndicate
   suffix: DO NOT MAP

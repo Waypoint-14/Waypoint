@@ -189,7 +189,7 @@
   parent: BasePlushie
   id: PlushieNuke
   name: nukie plushie
-  description: A stuffed toy that resembles a syndicate nuclear operative. The tag claims operatives to be purely fictitious.
+  description: A stuffed toy that resembles a bolite operative. The tag claims operatives to be purely fictitious.
   components:
   - type: Sprite
     state: plushie_nuke
@@ -250,7 +250,7 @@
   parent: BasePlushie
   id: PlushieLizard #Weh!
   name: lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson. Made by CentCom as a token initiative to combat speciesism in work environments. "Welcome your new colleagues as you do this plush, with open arms!"
+  description: An adorable stuffed toy that resembles a lizardperson. Made by CorpCol as a token initiative to combat speciesism in work environments. "Welcome your new colleagues as you do this plush, with open arms!"
   components:
   - type: Sprite
     state: plushie_lizard
@@ -302,7 +302,7 @@
   parent: BasePlushie
   id: PlushieSpaceLizard #ᵂᵉʰ!
   name: space lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson in an EVA suit. Made by CentCom as a token initiative to combat speciesism in space environments. "Welcome your new colleges as you do this plush, with open arms!"
+  description: An adorable stuffed toy that resembles a lizardperson in an EVA suit. Made by CorpCol as a token initiative to combat speciesism in space environments. "Welcome your new colleges as you do this plush, with open arms!"
   components:
   - type: Sprite
     state: plushie_spacelizard
@@ -1477,7 +1477,7 @@
   parent: BaseItem
   id: BalloonNT
   name: nanotrasen balloon
-  description: Specially designed to inflict maximum psychological damage to Syndicate operatives.
+  description: Specially designed to inflict maximum psychological damage to Bolite operatives.
   components:
   - type: Sprite
     sprite: Objects/Fun/toys.rsi

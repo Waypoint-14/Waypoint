@@ -76,7 +76,7 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterCap
-  name: captain's winter coat
+  name: station commander's winter coat
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatcap.rsi
@@ -119,7 +119,7 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterCentcom
-  name: CentCom winter coat
+  name: CorpCol winter coat
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatcentcom.rsi
@@ -221,7 +221,7 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterHoP
-  name: head of personnel's winter coat
+  name: resource coordinator's winter coat
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coathop.rsi
@@ -359,7 +359,7 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterRD
-  name: mystagogue's winter coat # DeltaV - Epistemics Department replacing Science
+  name: chief science officer's winter coat # DeltaV - Epistemics Department replacing Science
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/coatrd.rsi
@@ -468,8 +468,8 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterSyndieCap
-  name: syndicate's winter coat
-  description: "The syndicate's winter coat is made of durable fabric, with gilded patterns, and coarse wool."
+  name: winter coat
+  description: "The winter coat is made of durable fabric, with gilded patterns, and coarse wool."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/syndicate/coatsyndiecap.rsi
@@ -481,8 +481,8 @@
 - type: entity
   parent: ClothingOuterWinterWarden
   id: ClothingOuterWinterSyndieCapArmored
-  name: syndicate's armored winter coat
-  description: "The syndicate's armored winter coat is made of durable fabric, with gilded patterns, and coarse wool."
+  name: armored winter coat
+  description: "The armored winter coat is made of durable fabric, with gilded patterns, and coarse wool."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/syndicate/coatsyndiecaparmored.rsi
@@ -494,8 +494,8 @@
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterSyndie
-  name: syndicate's winter coat
-  description: Insulated winter coat, looks like a merch from "Syndieland"
+  name: winter coat
+  description: Insulated winter coat, looks like merch.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/WinterCoats/syndicate/wintercoatsyndie.rsi

@@ -113,7 +113,7 @@
   name: Python
   parent: BaseWeaponRevolver
   id: WeaponRevolverPython
-  description: A robust revolver favoured by Syndicate agents. Uses .45 magnum ammo.
+  description: A robust revolver favoured by hostile agents. Uses .45 magnum ammo.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Revolvers/python.rsi
@@ -135,7 +135,7 @@
   parent: WeaponRevolverPython
   id: WeaponRevolverPythonAP # For the uplink.
   suffix: armor-piercing
-  description: A robust revolver favoured by Syndicate agents. Uses .45 magnum ammo.
+  description: A robust revolver favoured by hostile agents. Uses .45 magnum ammo.
   components:
   - type: RevolverAmmoProvider
     whitelist:

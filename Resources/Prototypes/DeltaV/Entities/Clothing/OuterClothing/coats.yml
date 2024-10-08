@@ -2,7 +2,7 @@
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatRyuzo
   name: Delphic coat
-  description: In another universe, The Syndicate are known as the good guys.
+  description: In another universe, The Bolite Hivemind are known as the good guys.
   suffix: ADMIN ONLY, DO NOT MAP
   components:
   - type: Sprite
@@ -20,7 +20,7 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatHoPArmored
-  name: head of personnel's armored coat
+  name: resource coordinator's armored coat
   description: A comfortable jacket that offers some protection against acts of god and man.
   components:
   - type: Sprite
@@ -114,7 +114,7 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatHoPFormal
-  name: head of personnel's formal jacket
+  name: resource coordinator's formal jacket
   description: A showy and over-the-top jacket with gold buttons and red trim. More tacky than classy.
   components:
   - type: Sprite

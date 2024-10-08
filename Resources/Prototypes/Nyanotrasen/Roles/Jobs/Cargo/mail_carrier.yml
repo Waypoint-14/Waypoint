@@ -10,6 +10,7 @@
   - Cargo
   - Maintenance
   - Mail
+  setPreference: false # WYPT-14
 
 - type: startingGear
   id: MailCarrierGear

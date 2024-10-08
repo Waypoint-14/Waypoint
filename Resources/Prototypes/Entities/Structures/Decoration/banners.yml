@@ -80,8 +80,9 @@
 - type: entity
   id: BannerSyndicate
   parent: BannerBase
-  name: syndicate banner
-  description: A banner from which, according to the syndicate, you should feel hatred for NT.
+  name: bolite banner
+  description: A banner from which, according to the Bolite, you should feel hatred for the CC.
+  noSpawn: true # WPYT-14
   components:
   - type: Sprite
     sprite: Structures/Decoration/banner.rsi
@@ -90,8 +91,8 @@
 - type: entity
   id: BannerScience
   parent: BannerBase
-  name: epistemics banner # DeltaV - Epistemics Department replacing Science
-  description: A banner displaying the colors of the epistemics department. Where stupidity is proven greater than the universe. # DeltaV - Epistemics Department replacing Science
+  name: science banner # DeltaV - Epistemics Department replacing Science
+  description: A banner displaying the colors of the research department. Where stupidity is proven greater than the universe. # DeltaV - Epistemics Department replacing Science
   components:
   - type: Sprite
     sprite: Structures/Decoration/banner.rsi

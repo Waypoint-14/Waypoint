@@ -105,7 +105,7 @@
 - type: entity
   id: SuitStorageEngi
   parent: SuitStorageBase
-  suffix: Station Engineer
+  suffix: Maintenance Technician
   components:
   - type: StorageFill
     contents:

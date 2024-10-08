@@ -74,8 +74,8 @@
 - type: entity
   parent: PersonalAI
   id: SyndicatePersonalAI
-  name: syndicate personal ai device
-  description: Your Syndicate pal who's fun to be with!
+  name: cracked personal ai device
+  description: Your semi-functional pal who's fun to be with!
   components:
   - type: Sprite
     sprite: Objects/Fun/pai.rsi

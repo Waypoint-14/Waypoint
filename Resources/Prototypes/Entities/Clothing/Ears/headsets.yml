@@ -78,8 +78,8 @@
 - type: entity
   parent: ClothingHeadset
   id: ClothingHeadsetCentCom
-  name: CentCom headset
-  description: A headset used by the upper echelons of Nanotrasen.
+  name: CorpCol headset
+  description: A headset used by the upper echelons of the Second Corporate Coalition.
   components:
   - type: ContainerFill
     containers:

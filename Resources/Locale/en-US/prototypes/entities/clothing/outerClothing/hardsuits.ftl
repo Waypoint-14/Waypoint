@@ -104,7 +104,7 @@ ent-ClothingOuterHardsuitJuggernautReverseEngineered = NTSA-126 tacsuit
     .desc = A suit made by the special acquisitions department of Nanotrasen based on the "Juggernaut" design.
     Matching its bulky appearance, it protects against all forms of damage. It feels VERY heavy.
 ent-ClothingOuterHardsuitERTCentcomm = NT-444c - "Ophanim" tacsuit
-    .desc = A highly advanced, tactical combat hardsuit used by Central Command Officers, it seems to be branded with the Nanotrasen logo and a strange looking series number.
+    .desc = A highly advanced, tactical combat hardsuit used by Corporate Coalition Officers, it seems to be branded with the Nanotrasen logo and a strange looking series number.
     The armor appears to be lined with a very sturdy alloy, it doesn't seem to have any weight either.
 ent-ClothingOuterHardsuitERTLeader = NT-444l - "Michael" tacsuit
     .desc = A highly advanced, tactical combat hardsuit used by Leaders of the Emergency Response Team, it seems to be branded with the Nanotrasen logo and a strange looking series number.

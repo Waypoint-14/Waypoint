@@ -7,6 +7,7 @@
   startingGear: AtmosphericTechnicianGear
   icon: "JobIconAtmosphericTechnician"
   supervisors: job-supervisors-ce
+  weight: 9 # WYPT14
   canBeAntag: true
   access:
   - Maintenance

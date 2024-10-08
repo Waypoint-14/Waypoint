@@ -6,6 +6,7 @@
   startingGear: ChefGear
   icon: "JobIconChef"
   supervisors: job-supervisors-corporate
+  weight: 9 # WYPT14
   access:
   - Service
   - Maintenance

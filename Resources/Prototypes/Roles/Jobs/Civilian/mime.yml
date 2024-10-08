@@ -6,6 +6,7 @@
   startingGear: MimeGear
   icon: "JobIconMime"
   supervisors: job-supervisors-corporate
+  weight: 2 # WYPT14
   access:
   - Theatre
   - Maintenance

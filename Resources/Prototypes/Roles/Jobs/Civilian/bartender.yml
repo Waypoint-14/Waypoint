@@ -6,6 +6,7 @@
   startingGear: BartenderGear
   icon: "JobIconBartender"
   supervisors: job-supervisors-corporate
+  weight: 10 # WYPT14
   access:
   - Service
   - Maintenance

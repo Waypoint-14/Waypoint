@@ -2,6 +2,7 @@
   id: Logistics
   description: department-Cargo-description
   color: "#A46106"
+  weight: 50 # WYPT14
   roles:
   - CargoTechnician
   - HeadOfPersonnel
@@ -13,7 +14,7 @@
   id: Civilian
   description: department-Civilian-description
   color: "#9FED58"
-  weight: -10
+  weight: 0 # WYPT14
   roles:
   # - Bartender # WYPT-14
   # - Borg # WYPT-14 : Moved to Engineering
@@ -56,6 +57,7 @@
   id: Engineering
   description: department-Engineering-description
   color: "#EFB341"
+  weight: 60 # WYPT14
   roles:
   - AtmosphericTechnician
   - ChiefEngineer
@@ -68,6 +70,7 @@
   id: Medical
   description: department-Medical-description
   color: "#52B4E9"
+  weight: 80 # WYPT14
   roles:
   # - Chemist
   - ChiefMedicalOfficer
@@ -82,7 +85,7 @@
   id: Security
   description: department-Security-description
   color: "#DE3A3A"
-  weight: 20
+  weight: 90 # WYPT14
   roles:
   - HeadOfSecurity
   - SecurityCadet
@@ -97,6 +100,7 @@
   id: Science
   description: department-Science-description
   color: "#D381C9"
+  weight: 70 # WYPT14
   roles:
   - ResearchDirector
   # - SeniorResearcher

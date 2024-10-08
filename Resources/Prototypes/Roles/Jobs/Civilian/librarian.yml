@@ -6,6 +6,7 @@
   startingGear: LibrarianGear
   icon: "JobIconLibrarian"
   supervisors: job-supervisors-corporate
+  weight: 7 # WYPT14
   access:
   - Research
   - Maintenance

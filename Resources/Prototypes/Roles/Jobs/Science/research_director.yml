@@ -4,16 +4,16 @@
   description: job-description-rd
   playTimeTracker: JobResearchDirector
   antagAdvantage: 6 # DeltaV - Reduced TC: Head of Staff
-  requirements:
-    - !type:CharacterLogicOrRequirement
-      requirements:
-        - !type:CharacterSpeciesRequirement
-          inverted: true
-          species:
-            - IPC
-        - !type:CharacterTraitRequirement
-          traits:
-            - AnomalousPositronics
+  # requirements:
+  #   - !type:CharacterLogicOrRequirement
+  #     requirements:
+  #       - !type:CharacterSpeciesRequirement
+  #         inverted: true
+  #         species:
+  #           - IPC
+  #       - !type:CharacterTraitRequirement
+  #         traits:
+  #           - AnomalousPositronics
   weight: 10
   startingGear: ResearchDirectorGear
   icon: "JobIconResearchDirector"
@@ -28,21 +28,21 @@
   - Mantis # DeltaV - Mantis, see Resources/Prototypes/DeltaV/Access/epistemics.yml
   - Chapel # DeltaV - Chaplain is in Epistemics
   - Cryogenics
-  special: # Nyanotrasen - Mystagogue can use the Bible
-  - !type:AddComponentSpecial
-    components:
-    - type: BibleUser # Nyano - Lets them heal with bibles
-    - type: Psionic # Nyano - They start with telepathic chat
+  special:
+  # - !type:AddComponentSpecial
+  #   components:
+  #   - type: BibleUsers
+  #   - type: Psionic
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
   - !type:AddComponentSpecial
     components:
       - type: CommandStaff
-      - type: InnatePsionicPowers
-        powersToAdd:
-          - DispelPower
-          - MetapsionicPower
-          - TelepathyPower
+      # - type: InnatePsionicPowers
+      #   powersToAdd:
+      #     - DispelPower
+      #     - MetapsionicPower
+      #     - TelepathyPower
 
 - type: startingGear
   id: ResearchDirectorGear

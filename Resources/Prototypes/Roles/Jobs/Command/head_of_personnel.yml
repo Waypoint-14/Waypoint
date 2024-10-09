@@ -10,37 +10,13 @@
   requireAdminNotify: true
   supervisors: job-supervisors-captain
   canBeAntag: false
+  accessGroups:
+  - AAMinus
   access:
-  - Command
   - HeadOfPersonnel
-  - Bar
-  - Service
-  - Maintenance
-  - Janitor
-  - Theatre
-  - Kitchen
-  - Chapel
-  - Hydroponics
-  - External
-  - Cryogenics
-#  - Chemistry
-  - Engineering
-  - Research
-#  - Detective
-#  - Salvage
-  - Security
-#  - Brig
-  - Lawyer
-  - Cargo
-#  - Atmospherics
-  - Medical
-  - Boxer
-  - Clown
-  - Library
-  - Mime
-  - Musician
-  - Reporter
-  - Zookeeper
+  - Salvage
+  - Orders
+  - Mail
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]

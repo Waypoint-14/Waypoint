@@ -9,7 +9,7 @@
   supervisors: job-supervisors-corporate
   canBeAntag: true
   accessGroups:
-  - AllAccess
+  - AAMinus
   access:
   - CentralCommand
 

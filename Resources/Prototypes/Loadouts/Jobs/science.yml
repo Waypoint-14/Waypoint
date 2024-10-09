@@ -5,6 +5,12 @@
   category: JobsScience
   cost: 1
   exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutOuterScience
+    - !type:CharacterJobRequirement
+      jobs:
+        - Scientist
   items:
     - ClothingUniformJumpskirtSeniorResearcher
 
@@ -13,6 +19,12 @@
   category: JobsScience
   cost: 1
   exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutOuterScience
+    - !type:CharacterJobRequirement
+      jobs:
+        - Scientist
   items:
     - ClothingUniformJumpsuitSeniorResearcher
 
@@ -139,6 +151,12 @@
   category: JobsScience
   cost: 1
   exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutOuterScience
+    - !type:CharacterJobRequirement
+      jobs:
+        - Scientist
   items:
     - ClothingOuterCoatLabSeniorResearcher
 

@@ -54,8 +54,5 @@
     - !type:CharacterJobRequirement
       jobs:
         - SalvageSpecialist
-    - !type:CharacterPlaytimeRequirement
-      tracker: JobSalvageSpecialist
-      min: 36000 # 10 hours
   items:
     - ClothingNeckCloakGoliathCloak

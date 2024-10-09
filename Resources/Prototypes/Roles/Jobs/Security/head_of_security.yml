@@ -27,7 +27,6 @@
   - !type:AddComponentSpecial
     components:
       - type: CommandStaff
-  setPreference: false
 
 - type: startingGear
   id: HoSGear

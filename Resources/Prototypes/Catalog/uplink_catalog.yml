@@ -1232,7 +1232,7 @@
   conditions:
     - !type:BuyerDepartmentCondition
       whitelist:
-      - Science # DeltaV - Epistemics Department replacing Science
+      - Science
 
 - type: listing
   id: uplinkProximityMine

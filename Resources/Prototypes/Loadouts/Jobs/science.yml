@@ -19,7 +19,7 @@
   category: JobsScience
   cost: 1
   exclusive: true
-  requirements:
+  requirements: # WYPT14
     - !type:CharacterItemGroupRequirement
       group: LoadoutOuterScience
     - !type:CharacterJobRequirement
@@ -151,7 +151,7 @@
   category: JobsScience
   cost: 1
   exclusive: true
-  requirements:
+  requirements: # WYPT14
     - !type:CharacterItemGroupRequirement
       group: LoadoutOuterScience
     - !type:CharacterJobRequirement

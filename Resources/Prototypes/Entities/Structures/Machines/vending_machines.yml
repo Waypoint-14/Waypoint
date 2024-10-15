@@ -105,10 +105,10 @@
   - type: WiresVisuals
   - type: LanguageKnowledge
     speaks:
-    - GalacticCommon
+    - TauCetiBasic
     - RobotTalk
     understands:
-    - GalacticCommon
+    - TauCetiBasic
     - RobotTalk
   - type: VendingMachine
     soundVend: /Audio/SimpleStation14/Machines/machine_vend.ogg
@@ -1905,7 +1905,7 @@
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: AccessReader
-    access: [["Service"]]
+    access: [["Library"]]
 
 - type: entity
   parent: VendingMachine

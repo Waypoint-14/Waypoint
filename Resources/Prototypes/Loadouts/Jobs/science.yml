@@ -11,9 +11,6 @@
     - !type:CharacterDepartmentRequirement
       departments:
         - Science
-    - !type:CharacterDepartmentTimeRequirement
-      department: Science
-      min: 216000 # 60 hours
   items:
     - ClothingUniformJumpskirtSeniorResearcher
 
@@ -28,9 +25,6 @@
     - !type:CharacterDepartmentRequirement
       departments:
         - Science
-    - !type:CharacterDepartmentTimeRequirement
-      department: Science
-      min: 216000 # 60 hours
   items:
     - ClothingUniformJumpsuitSeniorResearcher
 
@@ -159,9 +153,6 @@
     - !type:CharacterDepartmentRequirement
       departments:
         - Science
-    - !type:CharacterDepartmentTimeRequirement
-      department: Science
-      min: 216000 # 60 hours
   items:
     - ClothingOuterCoatLabSeniorResearcher
 

@@ -56,3 +56,14 @@
         - SalvageSpecialist
   items:
     - ClothingNeckCloakGoliathCloak
+
+- type: loadout
+  id: LoadoutCargoWeaponsCrusherDagger
+  category: JobsCargo
+  cost: 2
+  requirements:
+    - !type:CharacterJobRequirement
+      jobs:
+        - SalvageSpecialist
+  items:
+    - WeaponCrusherDagger

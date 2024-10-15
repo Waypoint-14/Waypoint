@@ -2,7 +2,6 @@
 
 species-name-human = Human
 species-name-dwarf = Dwarf
-# WYPT-14
 species-name-reptilian = Unathi
 # WYPT-14
 species-name-slime = Ethereal

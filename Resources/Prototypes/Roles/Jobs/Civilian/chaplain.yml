@@ -28,6 +28,7 @@
     - type: InnatePsionicPowers
       powersToAdd:
         - TelepathyPower
+        - HealingWordPower
 
 - type: startingGear
   id: ChaplainGear
@@ -36,7 +37,7 @@
     back: ClothingBackpackChaplainFilled
     shoes: ClothingShoesColorBlack
     id: ChaplainPDA
-    ears: ClothingHeadsetScience # DeltaV - Move Chaplain into Epistemics
+    ears: ClothingHeadsetScience
   innerClothingSkirt: ClothingUniformJumpskirtChaplain
   satchel: ClothingBackpackSatchelChaplainFilled
   duffelbag: ClothingBackpackDuffelChaplainFilled

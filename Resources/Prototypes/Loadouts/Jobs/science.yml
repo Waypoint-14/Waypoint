@@ -3,44 +3,62 @@
 - type: loadout
   id: LoadoutScienceUniformJumpskirtSenior
   category: JobsScience
-  cost: 1
+  cost: 0
   exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutUniformsScience
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Science
+    - !type:CharacterDepartmentTimeRequirement
+      department: Science
+      min: 216000 # 60 hours
   items:
     - ClothingUniformJumpskirtSeniorResearcher
 
 - type: loadout
   id: LoadoutScienceUniformJumpsuitSenior
   category: JobsScience
-  cost: 1
+  cost: 0
   exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutUniformsScience
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Science
+    - !type:CharacterDepartmentTimeRequirement
+      department: Science
+      min: 216000 # 60 hours
   items:
     - ClothingUniformJumpsuitSeniorResearcher
 
 - type: loadout
   id: LoadoutScienceUniformJumpskirtRoboticist
   category: JobsScience
-  cost: 1
+  cost: 0
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutUniformsScience
-    - !type:CharacterJobRequirement
-      jobs:
-        - Scientist
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Science
   items:
     - ClothingUniformJumpskirtRoboticist
 
 - type: loadout
   id: LoadoutScienceUniformJumpsuitRoboticist
   category: JobsScience
-  cost: 1
+  cost: 0
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutUniformsScience
-    - !type:CharacterJobRequirement
-      jobs:
-        - Scientist
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Science
   items:
     - ClothingUniformJumpsuitRoboticist
 
@@ -82,11 +100,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutOuterScience
-    - !type:CharacterJobRequirement
-      jobs:
-        - Scientist
-        - ResearchAssistant
-        - ResearchDirector
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Science
   items:
     - ClothingOuterCoatRnd
 
@@ -98,11 +114,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutOuterScience
-    - !type:CharacterJobRequirement
-      jobs:
-        - Scientist
-        - ResearchAssistant
-        - ResearchDirector
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Science
   items:
     - ClothingOuterCoatLab
 
@@ -114,31 +128,40 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutOuterScience
-    - !type:CharacterJobRequirement
-      jobs:
-        - Scientist
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Science
   items:
     - ClothingOuterCoatRobo
 
 - type: loadout
   id: LoadoutScienceOuterWinterSci
   category: JobsScience
-  cost: 1
+  cost: 0
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutOuterScience
-    - !type:CharacterJobRequirement
-      jobs:
-        - Scientist
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Science
   items:
     - ClothingOuterWinterSci
 
 - type: loadout
   id: LoadoutScienceOuterLabcoatSeniorResearcher
   category: JobsScience
-  cost: 1
+  cost: 0
   exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutOuterScience
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Science
+    - !type:CharacterDepartmentTimeRequirement
+      department: Science
+      min: 216000 # 60 hours
   items:
     - ClothingOuterCoatLabSeniorResearcher
 
@@ -150,11 +173,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutOuterScience
-    - !type:CharacterJobRequirement
-      jobs:
-        - Scientist
-        - ResearchAssistant
-        - ResearchDirector
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Science
   items:
     - ClothingOuterExplorerCoat
 
@@ -238,10 +259,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutGlovesScience
-    - !type:CharacterJobRequirement
-      jobs:
-        - Scientist
-        - ResearchDirector
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Science
   items:
     - ClothingHandsGlovesColorPurple
 
@@ -253,10 +273,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutGlovesScience
-    - !type:CharacterJobRequirement
-      jobs:
-        - Scientist
-        - ResearchDirector
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Science
   items:
     - ClothingHandsGlovesLatex
 
@@ -268,10 +287,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutGlovesScience
-    - !type:CharacterJobRequirement
-      jobs:
-        - Scientist
-        - ResearchDirector
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Science
   items:
     - ClothingHandsGlovesRobohands
 
@@ -285,10 +303,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutNeckScience
-    - !type:CharacterJobRequirement
-      jobs:
-        - Scientist
-        - ResearchDirector
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Science
   items:
     - ClothingNeckTieSci
 
@@ -300,10 +317,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutNeckScience
-    - !type:CharacterJobRequirement
-      jobs:
-        - Scientist
-        - ResearchDirector
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Science
   items:
     - ClothingNeckScarfStripedPurple
 
@@ -329,9 +345,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutNeckScience
-    - !type:CharacterJobRequirement
-      jobs:
-        - Chaplain
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Science
   items:
     - ClothingNeckScarfStripedBlack
 
@@ -361,11 +377,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutHeadScience
-    - !type:CharacterJobRequirement
-      jobs:
-        - Scientist
-        - ResearchAssistant
-        - ResearchDirector
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Science
   items:
     - ClothingHeadHatBeretRND
 
@@ -377,9 +391,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutHeadScience
-    - !type:CharacterJobRequirement
-      jobs:
-        - Chaplain
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Science
   items:
     - ClothingHeadHatFez
 
@@ -446,14 +460,12 @@
   category: JobsScience
   cost: 1
   exclusive: true
-  requirements:
+  requirements: # WYPT14 - Robotics is in Engineering
     - !type:CharacterItemGroupRequirement
-      group: LoadoutEyesScience
-    - !type:CharacterJobRequirement
-      jobs:
-        - Scientist
-        - ResearchAssistant
-        - ResearchDirector
+      group: LoadoutEyesEngineering
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Engineering
   items:
     - ClothingEyesHudDiagnostic
 
@@ -462,14 +474,12 @@
   category: JobsScience
   cost: 1
   exclusive: true
-  requirements:
+  requirements: # WYPT14 - Robotics is in Engineering
     - !type:CharacterItemGroupRequirement
-      group: LoadoutEyesScience
-    - !type:CharacterJobRequirement
-      jobs:
-        - Scientist
-        - ResearchAssistant
-        - ResearchDirector
+      group: LoadoutEyesEngineering
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Engineering
   items:
     - ClothingEyesEyepatchHudDiag
 
@@ -483,11 +493,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutShoesScience
-    - !type:CharacterJobRequirement
-      jobs:
-        - Scientist
-        - ResearchAssistant
-        - ResearchDirector
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Science
   items:
     - ClothingShoesBootsWinterSci
 
@@ -502,11 +510,9 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutOuterScience
-    - !type:CharacterJobRequirement
-      jobs:
-        - Scientist
-        - ResearchAssistant
-        - ResearchDirector
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Science
 
 - type: loadout
   id: LoadoutHeadHoodTechPriest
@@ -518,8 +524,105 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutHeadScience
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Science
+
+# Cataloguer
+- type: loadout
+  id: LoadoutScienceJumpsuitLibrarianNt
+  category: JobsScience
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCataloguerUniforms
     - !type:CharacterJobRequirement
       jobs:
-        - Scientist
-        - ResearchAssistant
-        - ResearchDirector
+        - Librarian
+  items:
+    - ClothingUniformJumpsuitLibrarianNt
+
+- type: loadout
+  id: LoadoutScienceJumpsuitLibrarianIdris
+  category: JobsScience
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCataloguerUniforms
+    - !type:CharacterJobRequirement
+      jobs:
+        - Librarian
+  items:
+    - ClothingUniformJumpsuitLibrarianIdris
+
+- type: loadout
+  id: LoadoutScienceJumpsuitLibrarianOrion
+  category: JobsScience
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCataloguerUniforms
+    - !type:CharacterJobRequirement
+      jobs:
+        - Librarian
+  items:
+    - ClothingUniformJumpsuitLibrarianOrion
+
+- type: loadout
+  id: LoadoutScienceJumpsuitLibrarianHeph
+  category: JobsScience
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCataloguerUniforms
+    - !type:CharacterJobRequirement
+      jobs:
+        - Librarian
+  items:
+    - ClothingUniformJumpsuitLibrarianHeph
+
+- type: loadout
+  id: LoadoutScienceJumpsuitLibrarianPMCG
+  category: JobsScience
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCataloguerUniforms
+    - !type:CharacterJobRequirement
+      jobs:
+        - Librarian
+  items:
+    - ClothingUniformJumpsuitLibrarianPMCG
+
+- type: loadout
+  id: LoadoutScienceJumpsuitLibrarianZav
+  category: JobsScience
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCataloguerUniforms
+    - !type:CharacterJobRequirement
+      jobs:
+        - Librarian
+  items:
+    - ClothingUniformJumpsuitLibrarianZav
+
+- type: loadout
+  id: LoadoutScienceJumpsuitLibrarianZeng
+  category: JobsScience
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCataloguerUniforms
+    - !type:CharacterJobRequirement
+      jobs:
+        - Librarian
+  items:
+    - ClothingUniformJumpsuitLibrarianZeng

@@ -77,6 +77,8 @@
     soundEmpty:
       path: /Audio/Weapons/Guns/Empty/empty.ogg
     fireOnDropChance: 0.3
+  - type: Wieldable
+  - type: GunRequiresWield
   - type: ItemSlots
     slots:
       gun_magazine:
@@ -102,6 +104,15 @@
     price: 500
 
 - type: entity
+  name: antique Bulldog
+  parent: WeaponShotgunBulldog
+  id: WeaponShotgunBulldogHoS
+  description: This is a seemingly ordinary shotgun, no different from those issued as standard in the Republic of Biesel Navy. A close inspection reveals that this weapon's serial number is 000000013.
+  components:
+    - type: StealTarget
+      stealGroup: WeaponShotgunBulldogHoS
+
+- type: entity
   name: double-barreled shotgun
   parent: BaseWeaponShotgun
   id: WeaponShotgunDoubleBarreled
@@ -118,6 +129,8 @@
   - type: Gun
     fireRate: 2
     fireOnDropChance: 0.5
+  - type: Wieldable
+  - type: GunRequiresWield
   - type: BallisticAmmoProvider
     capacity: 2
   - type: Construction
@@ -146,6 +159,8 @@
   - type: Clothing
     sprite: DeltaV/Objects/Weapons/Guns/Shotguns/enforcer.rsi # Delta-V
   - type: BallisticAmmoProvider
+  - type: Wieldable
+  - type: GunRequiresWield
 
 - type: entity
   parent: WeaponShotgunEnforcer
@@ -176,6 +191,8 @@
   - type: Tag
     tags:
     - WeaponShotgunKammerer
+  - type: Wieldable
+  - type: GunRequiresWield
 
 - type: entity
   name: sawn-off shotgun
@@ -260,6 +277,8 @@
     capacity: 1
   - type: StaticPrice
     price: 0
+  - type: Wieldable
+  - type: GunRequiresWield
 
 - type: entity
   name: improvised shotgun

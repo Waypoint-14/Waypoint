@@ -1,18 +1,11 @@
 <Document>
   # Species
 
-  The SCC employs a variety of sapient species.
+  The SCC employs a diverse workforce.
 
   <Box>
-  <!-- <GuideEntityEmbed Entity="MobArachnid" Caption="Arachnara"/> -->
-  <!-- <GuideEntityEmbed Entity="MobDiona" Caption="Diona"/> -->
-  <!-- <GuideEntityEmbed Entity="MobDwarf" Caption="Dwarf"/> -->
   <GuideEntityEmbed Entity="MobHuman" Caption="Human"/>
-  </Box>
-  <Box>
-  <!-- <GuideEntityEmbed Entity="MobMoth" Caption="Moth Person"/> -->
   <GuideEntityEmbed Entity="MobReptilian" Caption="Unathi"/>
-  <!-- <GuideEntityEmbed Entity="MobSlimePerson" Caption="Ethereal"/> -->
   <GuideEntityEmbed Entity="MobIPCDummy" Caption="I.P.C."/>
   </Box>
 </Document>

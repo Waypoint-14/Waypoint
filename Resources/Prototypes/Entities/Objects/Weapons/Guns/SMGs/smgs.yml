@@ -21,7 +21,6 @@
     fireRate: 8
     angleIncrease: 3
     angleDecay: 16
-    angleDecay: 16
     selectedMode: FullAuto
     availableModes:
     - SemiAuto

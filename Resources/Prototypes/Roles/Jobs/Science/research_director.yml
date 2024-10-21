@@ -33,7 +33,7 @@
   #   components:
   #   - type: BibleUsers
   #   - type: Psionic
-  #     powerSlots: 2
+  #     powerSlots: 3
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
   - !type:AddComponentSpecial

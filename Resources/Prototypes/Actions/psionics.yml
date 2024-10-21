@@ -239,12 +239,6 @@
               maxGlimmer: 8
               glimmerSoundThreshold: 50
               doSupercritical: false
-            settings:
-              powerName: "Shadeskip"
-              minGlimmer: 6
-              maxGlimmer: 8
-              glimmerSoundThreshold: 50
-              doSupercritical: false
             entitySpawnEntries:
               - settings:
                   spawnOnPulse: true

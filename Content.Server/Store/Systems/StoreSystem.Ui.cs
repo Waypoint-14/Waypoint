@@ -271,12 +271,6 @@ public sealed partial class StoreSystem
             listing.Cost = listing.OldCost;
         }
 
-        if (listing.SaleLimit != 0 && listing.DiscountValue > 0 && listing.PurchaseAmount >= listing.SaleLimit)
-        {
-            listing.DiscountValue = 0;
-            listing.Cost = listing.OldCost;
-        }
-
         UpdateUserInterface(buyer, uid, component);
     }
 

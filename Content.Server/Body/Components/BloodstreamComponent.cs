@@ -1,7 +1,6 @@
 using Content.Server.Body.Systems;
 using Content.Server.Chemistry.EntitySystems;
 using Content.Server.Traits;
-using Content.Server.Traits;
 using Content.Server.Traits.Assorted;
 using Content.Shared.Chemistry.Components;
 using Content.Shared.Chemistry.Reagent;

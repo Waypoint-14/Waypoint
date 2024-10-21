@@ -447,60 +447,6 @@ namespace Content.Server.GameTicking
             return similarityPercentage;
         }
 
-        private bool CheckGhostReturnToRound(ICommonSession player, HumanoidCharacterProfile character, out bool checkAvoid)
-        {
-            checkAvoid = false;
-
-            var allPlayerMinds = EntityQuery<MindComponent>()
-                .Where(mind => mind.OriginalOwnerUserId == player.UserId);
-
-            foreach (var mind in allPlayerMinds)
-            {
-                if (mind.CharacterName == character.Name)
-                    return false;
-
-                if (mind.CharacterName == null)
-                    continue;
-
-                var similarity = CalculateStringSimilarity(mind.CharacterName, character.Name);
-                switch (similarity)
-                {
-                    case >= 85f:
-                        _chatManager.SendAdminAlert(Loc.GetString("ghost-respawn-log-character-almost-same",
-                            ("player", player.Name), ("try", false), ("oldName", mind.CharacterName),
-                            ("newName", character.Name)));
-                        checkAvoid = true;
-
-                        return false;
-                    case >= 50f:
-                        _chatManager.SendAdminAlert(Loc.GetString("ghost-respawn-log-character-almost-same",
-                            ("player", player.Name), ("try", true), ("oldName", mind.CharacterName),
-                            ("newName", character.Name)));
-
-                        break;
-                }
-            }
-
-            return true;
-        }
-
-        private float CalculateStringSimilarity(string str1, string str2)
-        {
-            var minLength = Math.Min(str1.Length, str2.Length);
-            var matchingCharacters = 0;
-
-            for (var i = 0; i < minLength; i++)
-            {
-                if (str1[i] == str2[i])
-                    matchingCharacters++;
-            }
-
-            float maxLength = Math.Max(str1.Length, str2.Length);
-            var similarityPercentage = (matchingCharacters / maxLength) * 100;
-
-            return similarityPercentage;
-        }
-
         #region Mob Spawning Helpers
         private EntityUid SpawnObserverMob()
         {

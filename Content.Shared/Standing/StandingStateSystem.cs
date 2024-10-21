@@ -121,10 +121,6 @@ public sealed class StandingStateSystem : EntitySystem
         Dirty(uid, standingState);
         RaiseLocalEvent(uid, new StoodEvent(), false);
 
-        // Raising this event will increase the entity's draw depth to a normal mob's.
-        if (_config.GetCVar(CCVars.CrawlUnderTables))
-            RaiseNetworkEvent(new DrawStoodEvent(GetNetEntity(uid)));
-
         _appearance.SetData(uid, RotationVisuals.RotationState, RotationState.Vertical, appearance);
 
         if (TryComp(uid, out FixturesComponent? fixtureComponent))

@@ -6425,7 +6425,7 @@ Entries:
     - type: Fix
       message: >-
         Cloning Consoles will now correctly state when a body has the
-        Uncloneable trait.
+        Uncloneable trait. 
   id: 6368
   time: '2024-09-18T04:30:39.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/926
@@ -6544,7 +6544,7 @@ Entries:
     - type: Add
       message: >-
         All "Long-arms", Rifles, Light Machine Guns, Shotguns, now require
-        wielding to use.
+        wielding to use. 
   id: 6378
   time: '2024-09-20T20:35:43.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/913
@@ -6562,7 +6562,7 @@ Entries:
     - type: Add
       message: >-
         Tau-Ceti Basic, Tradeband, Freespeak, Elyran Standard, Sol Common, and
-        Sign Language have been added to the Languages tab.
+        Sign Language have been added to the Languages tab. 
   id: 6380
   time: '2024-09-20T21:46:47.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/936
@@ -6572,7 +6572,7 @@ Entries:
       message: >-
         Removed the "Become Psionic" traitor objective. It was literally
         impossible to fail if you took the Latent Psychic trait, and literally
-        impossible to greentext if you didn't.
+        impossible to greentext if you didn't. 
   id: 6381
   time: '2024-09-20T21:47:16.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/940
@@ -6643,7 +6643,7 @@ Entries:
       message: >-
         The Do-After bar for Breath of Life and Healing Word is now hidden if
         glimmer is low enough. The threshold for which scales with your
-        Dampening stat. More Dampening = stealthier casting.
+        Dampening stat. More Dampening = stealthier casting. 
   id: 6386
   time: '2024-09-24T00:56:34.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/949
@@ -6683,7 +6683,7 @@ Entries:
     - type: Remove
       message: >-
         The button for "Suit/Skirt Preference" has also been removed. Suit
-        selection is done via Loadouts.
+        selection is done via Loadouts. 
   id: 6390
   time: '2024-09-28T00:46:19.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/957
@@ -6789,7 +6789,7 @@ Entries:
       message: >-
         Nerfed the fuck out of Reagent Slimes. They have 1/3rd as much HP, spawn
         half as many during reagent slime vents, deal significantly less damage,
-        and inject a lot less chems when biting people.
+        and inject a lot less chems when biting people. 
   id: 6401
   time: '2024-09-29T17:42:43.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/977
@@ -6836,7 +6836,7 @@ Entries:
       message: >-
         Oni now have a built-in negative trait that acts as a more severe
         version of Low Psi-Potential. Oni now have significant penalties to
-        generating new Psionic Powers.
+        generating new Psionic Powers. 
   id: 6406
   time: '2024-09-30T18:28:31.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/983

@@ -1,6 +1,5 @@
 using Robust.Shared.GameStates;
 using Robust.Shared.Serialization;
-using Content.Shared.DrawDepth;
 
 namespace Content.Shared.Standing;
 

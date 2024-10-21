@@ -175,7 +175,7 @@
       group: LoadoutBackpacks
     - !type:CharacterDepartmentRequirement
       departments:
-        - Science
+        - Epistemics
 
 - type: loadout
   id: LoadoutBackpackRobotics
@@ -189,7 +189,7 @@
       group: LoadoutBackpacks
     - !type:CharacterDepartmentRequirement
       departments:
-        - Science
+        - Epistemics
 
 - type: loadout
   id: LoadoutBackpackVirology

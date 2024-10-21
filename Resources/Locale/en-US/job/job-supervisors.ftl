@@ -1,4 +1,4 @@
-﻿job-supervisors-centcom = the Corporate Coalition
+job-supervisors-centcom = the Corporate Coalition
 job-supervisors-captain = the station commander
 job-supervisors-hop = the resource coordinator
 job-supervisors-hos = the head of security

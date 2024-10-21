@@ -1,0 +1,1 @@
+job-description-companyrepresentative = Company Representatives represent a specific mega-corporation and represent their interests; and employees aboard Waypoint-14.

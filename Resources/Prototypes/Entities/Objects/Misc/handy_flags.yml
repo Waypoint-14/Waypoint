@@ -25,8 +25,8 @@
 - type: entity
   parent: BaseItem
   id: SyndieHandyFlag
-  name: syndicate handheld flag
-  description: "For truly rebellious patriots. Death to NT!"
+  name: blood-red handheld flag
+  description: "For truly rebellious patriots. Death to the CC!"
   components:
   - type: Sprite
     sprite: Objects/Misc/Handy_Flags/syndie_handy_flag.rsi

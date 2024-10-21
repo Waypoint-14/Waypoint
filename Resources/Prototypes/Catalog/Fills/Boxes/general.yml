@@ -329,7 +329,7 @@
         amount: 4
 
 - type: entity
-  name: epistemics encryption key box # DeltaV - Epistemics Department replacing Science
+  name: science encryption key box
   parent: BoxEncryptionKeyPassenger
   id: BoxEncryptionKeyScience
   components:
@@ -359,10 +359,10 @@
         amount: 4
 
 - type: entity
-  name: syndicate encryption key box
+  name: hostile operative encryption key box
   parent: BoxEncryptionKeyPassenger
   id: BoxEncryptionKeySyndie
-  description: Two syndicate encryption keys for the price of one. Miniaturized for ease of use.
+  description: Two operative encryption keys for the price of one. Miniaturized for ease of use.
   components:
   - type: Item
     size: Normal

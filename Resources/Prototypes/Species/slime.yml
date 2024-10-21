@@ -1,7 +1,7 @@
 - type: species
   id: SlimePerson
   name: species-name-slime
-  roundStart: true
+  roundStart: false # WYPT-14 although I want to keep this as an external species
   prototype: MobSlimePerson
   sprites: MobSlimeSprites
   defaultSkinTone: "#b8b8b8"

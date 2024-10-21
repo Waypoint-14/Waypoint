@@ -70209,7 +70209,7 @@ entities:
       pos: 41.5,-23.5
       parent: 2
     - type: FaxMachine
-      destinationAddress: Head of Personnel
+      destinationAddress: resource coordinator
       name: Head of Personel
 - proto: FaxMachineCaptain
   entities:

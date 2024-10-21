@@ -3,10 +3,6 @@
   name: job-name-chemist
   description: job-description-chemist
   playTimeTracker: JobChemist
-  requirements:
-    - !type:CharacterDepartmentTimeRequirement
-      department: Medical
-      min: 28800 # DeltaV - 8 hours
   startingGear: ChemistGear
   icon: "JobIconChemist"
   supervisors: job-supervisors-cmo
@@ -18,6 +14,7 @@
   - !type:AddComponentSpecial
     components:
     - type: CPRTraining
+  setPreference: false
 
 - type: startingGear
   id: ChemistGear

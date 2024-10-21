@@ -1,29 +1,27 @@
 - type: job
   id: CentralCommandOfficial
-  name: job-name-centcomoff
-  description: job-description-centcomoff
+  name: job-name-companyrepresentative
+  description: job-description-companyrepresentative
   playTimeTracker: JobCentralCommandOfficial
-  setPreference: false
+  setPreference: true
   startingGear: CentcomGear
   icon: "JobIconNanotrasen"
-  supervisors: job-supervisors-hos
-  canBeAntag: false
+  supervisors: job-supervisors-corporate
+  canBeAntag: true
   accessGroups:
-  - AllAccess
+  - AAMinus
   access:
   - CentralCommand
 
 - type: startingGear
   id: CentcomGear
   equipment:
-    jumpsuit: ClothingUniformJumpsuitCentcomOfficial
-    shoes: ClothingShoesBootsCombatFilled
-    head: ClothingHeadHatCentcom
+    jumpsuit: ClothingUniformJumpsuitCentcomAgent # WYPT14 TODO: Rename
+    shoes: ClothingShoesBootsCombatFilled # WYPT14 TODO: Rename
     eyes: ClothingEyesGlassesSunglasses
     gloves: ClothingHandsGlovesColorBlack
-    outerClothing: ClothingOuterArmorBasic
-    id: CentcomPDA
-    ears: ClothingHeadsetAltCentCom
-    belt: WeaponPistolN1984
+    id: CentcomPDA # WYPT14 TODO: Rename
+    ears: ClothingHeadsetCentCom # WYPT14 TODO: Rename
     pocket1: BoxFolderBlack
-    pocket2: PenCentcom
+  satchel: ClothingBackpackSatchelCaptainFilled # WYPT14 TODO: Rename
+  duffelbag: ClothingBackpackDuffelCaptainFilled # WYPT14 TODO: Rename

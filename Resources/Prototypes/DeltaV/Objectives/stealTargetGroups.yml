@@ -7,7 +7,7 @@
 
 - type: stealTargetGroup
   id: BookIanDossier
-  name: head of personnel's photobook
+  name: resource coordinator's photobook
   sprite:
     sprite: DeltaV/Objects/Misc/bureaucracy.rsi
     state: folder-hop-ian

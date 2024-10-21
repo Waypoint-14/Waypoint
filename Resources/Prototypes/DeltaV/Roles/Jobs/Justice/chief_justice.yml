@@ -3,25 +3,12 @@
   name: job-name-chief-justice
   description: job-description-chief-justice
   playTimeTracker: JobChiefJustice
-  requirements:
-    - !type:CharacterPlaytimeRequirement
-      tracker: JobClerk
-      min: 36000 # 10 hours
-    - !type:CharacterPlaytimeRequirement
-      tracker: JobLawyer
-      min: 36000 # 10 hours
-    - !type:CharacterPlaytimeRequirement
-      tracker: JobProsecutor
-      min: 36000 # 10 hours
-    - !type:CharacterOverallTimeRequirement
-      min: 90000 # 25 hours
-    - !type:CharacterWhitelistRequirement # whitelist requirement because I don't want any dingus judges
   weight: 20
   startingGear: CJGear
   icon: "JobIconChiefJustice"
   requireAdminNotify: true
   supervisors: job-supervisors-captain
-  canBeAntag: false
+  canBeAntag: true # WYPT-14
   access:
   - Command
   - ChiefJustice
@@ -35,6 +22,7 @@
   - !type:AddComponentSpecial
     components:
       - type: CommandStaff
+  setPreference: false # WYPT-14
 
 - type: startingGear
   id: CJGear

@@ -50,7 +50,7 @@
 - type: entity
   parent: BaseItem
   id: BaseUplinkRadio
-  name: syndicate uplink
+  name: uplink
   description: Suspiciously looking old radio...
   suffix: Empty
   components:

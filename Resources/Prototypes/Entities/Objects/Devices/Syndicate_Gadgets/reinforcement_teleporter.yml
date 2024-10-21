@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: ReinforcementRadioSyndicate
-  name: syndicate reinforcement radio
-  description: Call in a syndicate agent of questionable quality, instantly! Only basic equipment provided.
+  name: reinforcement radio
+  description: Call in a fellow agent of questionable quality, instantly! Only basic equipment provided.
   components:
   - type: Sprite
     sprite: Objects/Devices/communication.rsi
@@ -30,7 +30,7 @@
 - type: entity
   parent: ReinforcementRadioSyndicate
   id: ReinforcementRadioSyndicateMonkey
-  name: syndicate monkey reinforcement radio
+  name: monkey reinforcement radio
   description: Calls in a specially trained monkey to assist you.
   components:
   - type: GhostRole
@@ -51,13 +51,13 @@
 - type: entity
   parent: ReinforcementRadioSyndicate
   id: ReinforcementRadioSyndicateCyborgAssault # Reinforcement radio exclusive to nukeops uplink
-  name: syndicate assault cyborg reinforcement radio
+  name: assault cyborg reinforcement radio
   description: Call in a well armed assault cyborg, instantly!
   suffix: NukeOps
   components:
     - type: GhostRole
-      name: Syndicate Assault Cyborg
+      name: Assault Cyborg
       description: Nuclear operatives needs reinforcements. You, a cold silicon killing machine, will help them.
-      rules: Normal syndicate antagonist rules apply. Work with whoever called you in, and don't harm them.
+      rules: Normal hostile antagonist rules apply. Work with whoever called you in, and don't harm them.
     - type: GhostRoleMobSpawner
       prototype: PlayerBorgSyndicateAssaultBattery

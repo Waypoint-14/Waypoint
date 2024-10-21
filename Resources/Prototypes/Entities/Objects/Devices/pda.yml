@@ -478,7 +478,7 @@
 - type: entity
   parent: BasePDA
   id: CaptainPDA
-  name: captain PDA
+  name: station commander PDA
   description: Surprisingly no different from your PDA.
   components:
   - type: Pda
@@ -498,7 +498,7 @@
 - type: entity
   parent: BasePDA
   id: HoPPDA
-  name: head of personnel PDA
+  name: resoure coordinator PDA
   description: Looks like it's been chewed on.
   components:
   - type: Pda
@@ -534,7 +534,7 @@
 - type: entity
   parent: BasePDA
   id: EngineerPDA
-  name: engineer PDA
+  name: maintenance PDA
   description: Rugged and well-worn.
   components:
   - type: Pda
@@ -637,7 +637,7 @@
 - type: entity
   parent: BasePDA
   id: RnDPDA
-  name: mystagogue PDA # DeltaV - Epistemics Department replacing Science
+  name: chief science officer PDA # DeltaV - Epistemics Department replacing Science
   description: It appears surprisingly ordinary.
   components:
   - type: Pda
@@ -659,7 +659,7 @@
 - type: entity
   parent: BasePDA
   id: SciencePDA
-  name: epistemics PDA # DeltaV - Epistemics Department replacing Science
+  name: research PDA # DeltaV - Epistemics Department replacing Science
   description: It's covered with an unknown gooey substance.
   components:
   - type: Pda
@@ -760,7 +760,7 @@
 - type: entity
   parent: BasePDA
   id: CentcomPDA
-  name: CentCom PDA
+  name: CorpCol PDA
   description: Light green sign of walking bureaucracy.
   components:
   - type: Pda
@@ -861,7 +861,7 @@
 - type: entity
   parent: BasePDA
   id: SyndiPDA
-  name: syndicate PDA
+  name: blood-red PDA
   description: Ok, time to be a productive member of- oh cool I'm a bad guy time to kill people!
   components:
   - type: Pda
@@ -1201,8 +1201,8 @@
 - type: entity
   parent: BaseMedicalPDA
   id: SyndiAgentPDA
-  name: syndicate agent PDA
-  description: For those days when healing normal syndicates aren't enough, try healing nuclear operatives instead!
+  name: operative PDA
+  description: For those days when healing normal operatives aren't enough, try healing elite operatives instead!
   components:
   - type: Pda
     id: SyndicateIDCard

@@ -1,6 +1,6 @@
 id-card-access-level-command = Command
-id-card-access-level-captain = Captain
-id-card-access-level-head-of-personnel = Head of Personnel
+id-card-access-level-captain = Station Commander
+id-card-access-level-head-of-personnel = Resource Coordinator
 id-card-access-level-cryogenics = Cryogenics
 
 id-card-access-level-head-of-security = Head of Security
@@ -51,4 +51,4 @@ id-card-access-level-syndicate-agent = Syndicate Agent
 
 id-card-access-level-unused = You shouldn't see this
 
-id-card-access-level-central-command = Central Command
+id-card-access-level-central-command = Corporate Coalition

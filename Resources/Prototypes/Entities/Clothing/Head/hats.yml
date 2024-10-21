@@ -193,7 +193,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatCaptain
-  name: captain's hardhat
+  name: station commander's hardhat
   description: It's good being the king.
   components:
   - type: Sprite
@@ -224,7 +224,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatCentcom
-  name: CentCom brand hat
+  name: CorpCol brand hat
   description: "It's good to be the emperor."
   components:
   - type: Sprite
@@ -329,8 +329,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatHopcap
-  name: head of personnel's cap
-  description: A grand, stylish head of personnel's cap.
+  name: resource coordinator's cap
+  description: A grand, stylish resource coordinator's cap.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/hopcap.rsi
@@ -640,7 +640,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadPyjamaSyndicateBlack
-  name: syndicate black pyjama hat
+  name: black pyjama hat
   description: For keeping that traitor head of yours warm.
   components:
   - type: Sprite
@@ -651,7 +651,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadPyjamaSyndicatePink
-  name: syndicate pink pyjama hat
+  name: pink pyjama hat
   description: For keeping that traitor head of yours warm.
   components:
   - type: Sprite
@@ -662,7 +662,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadPyjamaSyndicateRed
-  name: syndicate red pyjama hat
+  name: red pyjama hat
   description: For keeping that traitor head of yours warm.
   components:
   - type: Sprite
@@ -887,7 +887,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatCapcap
   name: cap cap
-  description: A grand, stylish captain cap.
+  description: A grand, stylish commander cap.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/capcap.rsi
@@ -902,7 +902,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatCentcomcap
-  name: CentCom cap
+  name: CorpCol cap
   description: An extravagant, fancy Central Commander cap.
   components:
   - type: Sprite

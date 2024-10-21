@@ -16505,7 +16505,7 @@ entities:
   - uid: 18557
     components:
     - type: MetaData
-      name: mystagogue office APC
+      name: chief science officer office APC
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 22.5,-66.5
@@ -153962,7 +153962,7 @@ entities:
       setupAvailableNetworks:
       - SurveillanceCameraScience
       nameSet: True
-      id: Mystagogue's Office
+      id: Chief Science Officer's Office
   - uid: 16677
     components:
     - type: Transform

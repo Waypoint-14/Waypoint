@@ -2,7 +2,8 @@
   parent: Bible
   id: BibleMystagogue
   name: book of mysteries
-  description: The mystagogue's holy book.
+  description: The Chief Science Officer's holy book.
+  noSpawn: true
   components:
   - type: Summonable
     specialItem: SpawnPointGhostIfrit

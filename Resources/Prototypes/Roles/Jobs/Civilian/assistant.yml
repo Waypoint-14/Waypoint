@@ -5,7 +5,8 @@
   playTimeTracker: JobPassenger
   startingGear: PassengerGear
   icon: "JobIconPassenger"
-  supervisors: job-supervisors-everyone
+  supervisors: job-supervisors-corporate
+  weight: -90 # WYPT14
   access:
   - Maintenance
 

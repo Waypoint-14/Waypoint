@@ -1,5 +1,5 @@
 station-beacon-epistemics = Epistemics
-station-beacon-mystagogue = Mystagogue
+station-beacon-mystagogue = chief science officer
 
 station-beacon-logistics = Logistics
 station-beacon-logistics-reception = Logistics

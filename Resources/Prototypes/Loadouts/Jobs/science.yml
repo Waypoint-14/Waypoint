@@ -10,10 +10,7 @@
       group: LoadoutUniformsScience
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
-    - !type:CharacterDepartmentTimeRequirement
-      department: Epistemics
-      min: 216000 # 60 hours
+        - Science
   items:
     - ClothingUniformJumpskirtSeniorResearcher
 
@@ -27,10 +24,7 @@
       group: LoadoutUniformsScience
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
-    - !type:CharacterDepartmentTimeRequirement
-      department: Epistemics
-      min: 216000 # 60 hours
+        - Science
   items:
     - ClothingUniformJumpsuitSeniorResearcher
 
@@ -44,7 +38,7 @@
       group: LoadoutUniformsScience
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Science
   items:
     - ClothingUniformJumpskirtRoboticist
 
@@ -58,7 +52,7 @@
       group: LoadoutUniformsScience
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Science
   items:
     - ClothingUniformJumpsuitRoboticist
 
@@ -102,7 +96,7 @@
       group: LoadoutOuterScience
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Science
   items:
     - ClothingOuterCoatRnd
 
@@ -116,7 +110,7 @@
       group: LoadoutOuterScience
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Science
   items:
     - ClothingOuterCoatLab
 
@@ -130,7 +124,7 @@
       group: LoadoutOuterScience
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Science
   items:
     - ClothingOuterCoatRobo
 
@@ -144,7 +138,7 @@
       group: LoadoutOuterScience
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Science
   items:
     - ClothingOuterWinterSci
 
@@ -158,10 +152,7 @@
       group: LoadoutOuterScience
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
-    - !type:CharacterDepartmentTimeRequirement
-      department: Epistemics
-      min: 216000 # 60 hours
+        - Science
   items:
     - ClothingOuterCoatLabSeniorResearcher
 
@@ -175,7 +166,7 @@
       group: LoadoutOuterScience
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Science
   items:
     - ClothingOuterExplorerCoat
 
@@ -261,7 +252,7 @@
       group: LoadoutGlovesScience
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Science
   items:
     - ClothingHandsGlovesColorPurple
 
@@ -275,7 +266,7 @@
       group: LoadoutGlovesScience
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Science
   items:
     - ClothingHandsGlovesLatex
 
@@ -289,7 +280,7 @@
       group: LoadoutGlovesScience
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Science
   items:
     - ClothingHandsGlovesRobohands
 
@@ -305,7 +296,7 @@
       group: LoadoutNeckScience
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Science
   items:
     - ClothingNeckTieSci
 
@@ -319,7 +310,7 @@
       group: LoadoutNeckScience
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Science
   items:
     - ClothingNeckScarfStripedPurple
 
@@ -347,7 +338,7 @@
       group: LoadoutNeckScience
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Science
   items:
     - ClothingNeckScarfStripedBlack
 
@@ -379,7 +370,7 @@
       group: LoadoutHeadScience
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Science
   items:
     - ClothingHeadHatBeretRND
 
@@ -393,7 +384,7 @@
       group: LoadoutHeadScience
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Science
   items:
     - ClothingHeadHatFez
 
@@ -460,12 +451,12 @@
   category: JobsScience
   cost: 1
   exclusive: true
-  requirements:
+  requirements: # WYPT14 - Robotics is in Engineering
     - !type:CharacterItemGroupRequirement
-      group: LoadoutEyesScience
+      group: LoadoutEyesEngineering
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Engineering
   items:
     - ClothingEyesHudDiagnostic
 
@@ -474,12 +465,12 @@
   category: JobsScience
   cost: 1
   exclusive: true
-  requirements:
+  requirements: # WYPT14 - Robotics is in Engineering
     - !type:CharacterItemGroupRequirement
-      group: LoadoutEyesScience
+      group: LoadoutEyesEngineering
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Engineering
   items:
     - ClothingEyesEyepatchHudDiag
 
@@ -495,7 +486,7 @@
       group: LoadoutShoesScience
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Science
   items:
     - ClothingShoesBootsWinterSci
 
@@ -512,7 +503,7 @@
       group: LoadoutOuterScience
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Science
 
 - type: loadout
   id: LoadoutHeadHoodTechPriest
@@ -526,7 +517,7 @@
       group: LoadoutHeadScience
     - !type:CharacterDepartmentRequirement
       departments:
-        - Epistemics
+        - Science
 
 # Cataloguer
 - type: loadout

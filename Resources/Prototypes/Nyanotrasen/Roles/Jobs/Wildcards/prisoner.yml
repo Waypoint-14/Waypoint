@@ -5,14 +5,10 @@
   playTimeTracker: JobPrisoner
   startingGear: PrisonerGear
   alwaysUseSpawner: true
-  canBeAntag: false
-#  whitelistRequired: true
+  canBeAntag: true # WYPT-14
+  setPreference: false # WYPT-14
   icon: "JobIconPrisoner"
   supervisors: job-supervisors-security
-  requirements:
-    - !type:DepartmentTimeRequirement
-      department: Security
-      min: 21600
 
 - type: startingGear
   id: PrisonerGear

@@ -31,7 +31,7 @@
 - type: entity
   parent: ClothingShoesBaseWinterBoots
   id: ClothingShoesBootsWinterCentCom
-  name: Centcom winter boots
+  name: CorpCol winter boots
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Shoes/Boots/winterbootscentcom.rsi
@@ -171,7 +171,7 @@
 - type: entity
   parent: ClothingShoesBaseWinterBoots
   id: ClothingShoesBootsWinterMystagogue
-  name: Mystagogue's winter boots
+  name: Chief Science Officer's winter boots
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Shoes/Boots/winterbootsrd.rsi

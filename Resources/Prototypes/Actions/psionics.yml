@@ -250,7 +250,6 @@
                 - ShadowKudzuWeak
               - settings:
                   spawnOnPulse: true
-                  spawnOnPulse: true
                   spawnOnSuperCritical: true
                   minAmount: 1
                   maxAmount: 1

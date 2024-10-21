@@ -239,6 +239,12 @@
               maxGlimmer: 8
               glimmerSoundThreshold: 50
               doSupercritical: false
+            settings:
+              powerName: "Shadeskip"
+              minGlimmer: 6
+              maxGlimmer: 8
+              glimmerSoundThreshold: 50
+              doSupercritical: false
             entitySpawnEntries:
               - settings:
                   spawnOnPulse: true
@@ -249,6 +255,7 @@
                 spawns:
                 - ShadowKudzuWeak
               - settings:
+                  spawnOnPulse: true
                   spawnOnPulse: true
                   spawnOnSuperCritical: true
                   minAmount: 1

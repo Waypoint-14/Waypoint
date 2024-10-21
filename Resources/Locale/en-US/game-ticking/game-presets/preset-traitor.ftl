@@ -28,9 +28,11 @@ traitor-role-greeting =
     Your objectives and codewords are listed in the character menu.
     Use the uplink loaded into your PDA to buy the tools you'll need for this mission.
     Death to the Corporate Coalition!
+    Death to the Corporate Coalition!
 traitor-role-codewords =
     The codewords are:
     {$codewords}.
+    Codewords can be used in regular conversation to identify yourself discretely to other agents.
     Codewords can be used in regular conversation to identify yourself discretely to other agents.
     Listen for them, and keep them secret.
 traitor-role-uplink-code =

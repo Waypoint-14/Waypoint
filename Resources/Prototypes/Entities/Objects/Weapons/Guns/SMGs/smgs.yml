@@ -21,6 +21,7 @@
     fireRate: 8
     angleIncrease: 3
     angleDecay: 16
+    angleDecay: 16
     selectedMode: FullAuto
     availableModes:
     - SemiAuto
@@ -83,6 +84,7 @@
   name: C-20r sub machine gun
   parent: [BaseWeaponSubMachineGun, BaseGunWieldable]
   id: WeaponSubMachineGunC20r
+  description: Manufactured by Cybersun-Armaments, the C-20r is one of the most popular personal small-arms in the Coalition of Colonies. Uses .35 auto ammo.
   description: Manufactured by Cybersun-Armaments, the C-20r is one of the most popular personal small-arms in the Coalition of Colonies. Uses .35 auto ammo.
   components:
   - type: Sprite
@@ -255,6 +257,7 @@
     minAngle: 1
     maxAngle: 6
     angleIncrease: 1.5
+    angleDecay: 6
     angleDecay: 6
     selectedMode: FullAuto
     shotsPerBurst: 5

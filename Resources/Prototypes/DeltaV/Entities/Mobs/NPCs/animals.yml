@@ -1,6 +1,7 @@
 - type: entity
   name: arctic fox
   parent: MobFox
+  parent: MobFox
   id: MobArcticFox
   description: Wears a regal coat of snowy elegance, belying its cold and resourceful nature.
   components:
@@ -55,6 +56,7 @@
 
 - type: entity
   name: security dog
+  parent: MobCorgi # There isn't a base dog mob, surprisingly.
   parent: MobCorgi # There isn't a base dog mob, surprisingly.
   id: MobSecDog
   description: Funnily enough, this pig is actually a dog.

@@ -186,5 +186,11 @@ namespace Content.Client.Ghost
             var msg = new GhostReturnToRoundRequest();
             RaiseNetworkEvent(msg);
         }
+
+        public void ReturnToRound()
+        {
+            var msg = new GhostReturnToRoundRequest();
+            RaiseNetworkEvent(msg);
+        }
     }
 }

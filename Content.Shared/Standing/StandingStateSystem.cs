@@ -39,6 +39,8 @@ public sealed class StandingStateSystem : EntitySystem
         AppearanceComponent? appearance = null,
         HandsComponent? hands = null,
         bool setDrawDepth = false)
+        HandsComponent? hands = null,
+        bool setDrawDepth = false)
     {
         // TODO: This should actually log missing comps...
         if (!Resolve(uid, ref standingState, false))
@@ -187,4 +189,4 @@ public sealed class StoodEvent : EntityEventArgs { }
 /// <summary>
 ///     Raised when an entity is not standing
 /// </summary>
-public sealed class DownedEvent : EntityEventArgs { }
+public sealed class DownedEvent  : EntityEventArgs { }

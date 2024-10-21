@@ -175,7 +175,7 @@
       group: LoadoutBackpacks
     - !type:CharacterDepartmentRequirement
       departments:
-        - Science
+        - Engineering
 
 - type: loadout
   id: LoadoutBackpackDuffelVirology

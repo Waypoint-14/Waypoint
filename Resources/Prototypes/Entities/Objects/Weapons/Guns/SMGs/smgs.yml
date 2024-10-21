@@ -256,7 +256,6 @@
     maxAngle: 6
     angleIncrease: 1.5
     angleDecay: 6
-    angleDecay: 6
     selectedMode: FullAuto
     shotsPerBurst: 5
     availableModes:

@@ -33,6 +33,7 @@
             #Medical
             ChiefMedicalOfficer: [ 1, 1 ]
             MedicalDoctor: [ 3, 3 ]
+            MedicalIntern: [ 3, 3 ]
             #Epistemics
             ResearchDirector: [ 1, 1 ]
             Scientist: [ 4, 4 ]

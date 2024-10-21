@@ -11000,7 +11000,7 @@ entities:
   - uid: 2334
     components:
     - type: MetaData
-      name: Head of Personnel's Office
+      name: Resource Coordinator's Office
     - type: Transform
       pos: 21.5,3.5
       parent: 100
@@ -11789,7 +11789,7 @@ entities:
   - uid: 2981
     components:
     - type: MetaData
-      name: Mystagogue's Office
+      name: Chief Science Officer's Office
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -15.5,-16.5
@@ -11797,7 +11797,7 @@ entities:
   - uid: 5582
     components:
     - type: MetaData
-      name: Mystagogue's Office
+      name: Chief Science Officer's Office
     - type: Transform
       pos: -16.5,-18.5
       parent: 100
@@ -91387,7 +91387,7 @@ entities:
   - uid: 5269
     components:
     - type: MetaData
-      desc: A gift from Centcomm, declaring Lighthouse as one of their finest stations, with only the best of crew sent to maintain it. Someone seems to have vandalized the back of it with 'Greytide 4ever'...
+      desc: A gift from CorpCol, declaring Waypoint-14 as one of their finest stations, with only the best of crew sent to maintain it. Someone seems to have vandalized the back of it with 'Greytide 4ever'...
       name: Lighthouse Station Monument
     - type: Transform
       pos: 14.5,-23.5
@@ -109320,7 +109320,7 @@ entities:
     components:
     - type: MetaData
       desc: A sign denoting the location of the HoP's bunker, and how best to barter for improved access across the station.
-      name: head of personnel sign
+      name: Resource Coordinator sign
     - type: Transform
       pos: 19.5,3.5
       parent: 100
@@ -112525,7 +112525,7 @@ entities:
       setupAvailableNetworks:
       - SurveillanceCameraCommand
       nameSet: True
-      id: Head of Personnel's Office
+      id: Resource Coordinator's Office
   - uid: 169
     components:
     - type: Transform
@@ -132728,7 +132728,7 @@ entities:
   - uid: 2279
     components:
     - type: MetaData
-      name: Head of Personnel's Office
+      name: Resource Coordinator's Office
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 18.5,8.5
@@ -132864,7 +132864,7 @@ entities:
   - uid: 2280
     components:
     - type: MetaData
-      name: Head of Personnel's Office
+      name: Resource Coordinator's Office
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 18.5,8.5

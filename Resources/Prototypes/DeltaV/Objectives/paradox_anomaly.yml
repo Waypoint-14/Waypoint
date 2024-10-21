@@ -42,7 +42,7 @@
   noSpawn: true
   parent: [BaseParadoxAnomalyObjective, BaseLivingObjective]
   id: ParadoxAnomalyEscapeObjective
-  name: Escape to centcom alive and unrestrained.
+  name: Escape to CorpCol alive and unrestrained.
   description: This is your universe now.
   components:
   - type: Objective

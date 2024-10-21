@@ -1,8 +1,8 @@
-department-Cargo = Cargo
+department-Logistics = Logistics
 department-Civilian = Civilian
 department-Command = Command
 department-Engineering = Engineering
 department-Medical = Medical
 department-Security = Security
-department-Science = Science
-department-Specific = Station specific
+department-Science = Research
+department-Independent = Independent Contractor

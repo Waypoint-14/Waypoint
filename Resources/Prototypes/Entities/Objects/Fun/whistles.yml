@@ -33,7 +33,7 @@
   parent: BaseWhistle
   id: SyndicateWhistle
   name: trench whistle
-  description: A whistle used by Syndicate commanders to draw attention. Avanti!
+  description: A whistle used by Bolite commanders to draw attention. Avanti!
   components:
   - type: Sprite
     sprite: Clothing/Neck/Misc/whistles.rsi

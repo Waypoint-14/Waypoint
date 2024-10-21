@@ -1,3 +1,39 @@
 - type: accessLevel
   id: CentralCommand
   name: id-card-access-level-central-command
+
+
+- type: accessGroup
+  id: AAMinus
+  tags:
+  - HeadOfPersonnel
+  - Command
+  - Cryogenics
+  - Security
+  - Lawyer
+  - Engineering
+  - Medical
+  - Cargo
+  - Research
+  - Service
+  - Maintenance
+  - External
+  - Janitor
+  - Theatre
+  - Bar
+  - Kitchen
+  - Chapel
+  - Hydroponics
+  - Mantis # DeltaV - Mantis, see Resources/Prototypes/DeltaV/Access/epistemics.yml
+  - Paramedic # DeltaV - Add Paramedic access
+  - Psychologist # DeltaV - Add Psychologist access
+  - Boxer # DeltaV - Add Boxer access
+  - Clown # DeltaV - Add Clown access
+  - Library # DeltaV - Add Library access
+  - Mime # DeltaV - Add Mime access
+  - Musician # DeltaV - Add Musician access
+  - Reporter # DeltaV - Add Reporter access
+  - Zookeeper # DeltaV - Add Zookeeper access
+  - Justice # DeltaV - Add Justice dept access
+  - ChiefJustice # DeltaV - Add Chief Justice access
+  - Prosecutor # DeltaV - Add Prosecutor access

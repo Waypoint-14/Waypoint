@@ -194,16 +194,16 @@ ghost-role-information-ert-medical-name = ERT Medical
 ghost-role-information-ert-medical-description = Assist with medical efforts to resolve the station's issues.
 
 ghost-role-information-cburn-agent-name = CBURN Agent
-ghost-role-information-cburn-agent-description = A highly trained CentCom agent, capable of dealing with various threats.
+ghost-role-information-cburn-agent-description = A highly trained CorpCol agent, capable of dealing with various threats.
 
-ghost-role-information-centcom-official-name = CentComm official
-ghost-role-information-centcom-official-description = Perform CentComm related duties such as inspect the station, jotting down performance reviews for heads of staff, and managing the fax machine.
+ghost-role-information-centcom-official-name = CorpCol official
+ghost-role-information-centcom-official-description = Perform CorpCol related duties such as inspect the station, jotting down performance reviews for heads of staff, and managing the fax machine.
 
-ghost-role-information-nukeop-rules = You are a syndicate operative tasked with the destruction of the station. As an antagonist, do whatever is required to complete this task.
+ghost-role-information-nukeop-rules = You are a hostile operative tasked with the destruction of the station. As an antagonist, do whatever is required to complete this task.
 
 ghost-role-information-loneop-name = Lone Operative
 ghost-role-information-loneop-description = You are a lone nuclear operative. Destroy the station!
-ghost-role-information-loneop-rules = You are a syndicate operative tasked with the destruction of the station. As an antagonist, do whatever is required to complete this task.
+ghost-role-information-loneop-rules = You are a hostile operative tasked with the destruction of the station. As an antagonist, do whatever is required to complete this task.
 
 ghost-role-information-behonker-name = Behonker
 ghost-role-information-behonker-description = You are an antagonist, bring death and honks to those who do not follow the honkmother.
@@ -212,7 +212,7 @@ ghost-role-information-hellspawn-name = Hellspawn
 ghost-role-information-hellspawn-description = You are an antagonist, bring death to those who do not follow the great god Nar'Sie.
 
 ghost-role-information-Death-Squad-name = Death Squad Operative
-ghost-role-information-Death-Squad-description = One of Nanotrasen's top internal affairs agents. Await orders from CentComm or an official.
+ghost-role-information-Death-Squad-description = One of Nanotrasen's top internal affairs agents. Await orders from CoprCol or an official.
 
 ghost-role-information-SyndiCat-name = SyndiCat
 ghost-role-information-SyndiCat-description = You're the faithful trained pet of nuclear operatives with a microbomb. Serve your master to the death!
@@ -238,13 +238,13 @@ ghost-role-information-space-ninja-name = Space Ninja
 ghost-role-information-space-ninja-description = Use stealth and deception to sabotage the station.
 ghost-role-information-space-ninja-rules = You are an elite mercenary of the Spider Clan. You aren't required to follow your objectives, yet your NINJA HONOR demands you try.
 
-ghost-role-information-syndicate-reinforcement-name = Syndicate Agent
-ghost-role-information-syndicate-reinforcement-description = Someone needs reinforcements. You, the first person the syndicate could find, will help them.
-ghost-role-information-syndicate-reinforcement-rules = Normal syndicate antagonist rules apply. Work with whoever called you in, and don't harm them.
+ghost-role-information-syndicate-reinforcement-name = Hostile Agent
+ghost-role-information-syndicate-reinforcement-description = Someone needs reinforcements. You will help them.
+ghost-role-information-syndicate-reinforcement-rules = Normal hostile antagonist rules apply. Work with whoever called you in, and don't harm them.
 
-ghost-role-information-syndicate-monkey-reinforcement-name = Syndicate Monkey Agent
+ghost-role-information-syndicate-monkey-reinforcement-name = Hostile Monkey Agent
 ghost-role-information-syndicate-monkey-reinforcement-description = Someone needs reinforcements. You, a trained monkey, will help them.
-ghost-role-information-syndicate-monkey-reinforcement-rules = Normal syndicate antagonist rules apply. Work with whoever called you in, and don't harm them.
+ghost-role-information-syndicate-monkey-reinforcement-rules = Normal Hostile antagonist rules apply. Work with whoever called you in, and don't harm them.
 
 ghost-role-information-artifact-name = Sentient Artifact
 ghost-role-information-artifact-description =

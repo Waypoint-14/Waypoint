@@ -29,7 +29,7 @@ reagent-name-space-drugs = space drugs
 reagent-desc-space-drugs = An illegal compound which induces a number of effects such as loss of balance and visual artefacts.
 
 reagent-name-nocturine = nocturine
-reagent-desc-nocturine = A highly effective sedative and hypnotic, developed by the Syndicate for stealth operations. One-way ticket to honk-shoo town.
+reagent-desc-nocturine = A highly effective sedative and hypnotic, developed by the Bolite Hivemind for stealth operations. One-way ticket to honk-shoo town.
 
 reagent-name-mute-toxin = mute toxin
 reagent-desc-mute-toxin = A thick chemical that coats the vocal cords, making the user unable to speak during metabolization.

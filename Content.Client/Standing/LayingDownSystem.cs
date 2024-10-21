@@ -3,8 +3,8 @@ using Content.Shared.Rotation;
 using Content.Shared.Standing;
 using Robust.Client.GameObjects;
 using Robust.Client.Graphics;
+using Robust.Shared.Configuration;
 using Robust.Shared.Timing;
-using DrawDepth = Content.Shared.DrawDepth.DrawDepth;
 
 namespace Content.Client.Standing;
 
@@ -25,6 +25,24 @@ public sealed class LayingDownSystem : SharedLayingDownSystem
         SubscribeNetworkEvent<DrawStoodEvent>(OnStood);
 
         SubscribeNetworkEvent<CheckAutoGetUpEvent>(OnCheckAutoGetUp);
+    }
+
+    public override void Update(float frameTime)
+    {
+        // Update draw depth of laying down entities as necessary
+        var query = EntityQueryEnumerator<LayingDownComponent, StandingStateComponent, SpriteComponent>();
+        while (query.MoveNext(out var uid, out var layingDown, out var standing, out var sprite))
+        {
+            // Do not modify the entities draw depth if it's modified externally
+            if (sprite.DrawDepth != layingDown.NormalDrawDepth && sprite.DrawDepth != layingDown.CrawlingUnderDrawDepth)
+                continue;
+
+            sprite.DrawDepth = standing.CurrentState is StandingState.Lying && layingDown.IsCrawlingUnder
+                ? layingDown.CrawlingUnderDrawDepth
+                : layingDown.NormalDrawDepth;
+        }
+
+        query.Dispose();
     }
 
     private void OnMovementInput(EntityUid uid, LayingDownComponent component, MoveEvent args)

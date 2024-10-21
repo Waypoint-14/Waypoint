@@ -7,7 +7,7 @@
 
 - type: stealTargetGroup
   id: BookIanDossier
-  name: head of personnel's photobook
+  name: resource coordinator's photobook
   sprite:
     sprite: DeltaV/Objects/Misc/bureaucracy.rsi
     state: folder-hop-ian
@@ -18,6 +18,48 @@
   sprite:
     sprite: DeltaV/Objects/Weapons/Guns/Battery/multiphase_energygun.rsi
     state: base
+
+- type: stealTargetGroup
+  id: WeaponPulsePistolHoS
+  name: antique pulse pistol
+  sprite:
+    sprite: Objects/Weapons/Guns/Battery/pulse_pistol.rsi
+    state: base
+
+- type: stealTargetGroup
+  id: WeaponSubMachineGunWt550HoS
+  name: antique Wt550
+  sprite:
+    sprite: Objects/Weapons/Guns/SMGs/wt550.rsi
+    state: base
+
+- type: stealTargetGroup
+  id: WeaponSubMachineGunC20rHoS
+  name: antique C20r
+  sprite:
+    sprite: Objects/Weapons/Guns/SMGs/c20r.rsi
+    state: base
+
+- type: stealTargetGroup
+  id: WeaponShotgunBulldogHoS
+  name: antique C20r
+  sprite:
+    sprite: Objects/Weapons/Guns/Shotguns/bulldog.rsi
+    state: base
+
+- type: stealTargetGroup
+  id: EnergySwordHoS
+  name: antique energy sword
+  sprite:
+    sprite: Objects/Weapons/Melee/e_sword.rsi
+    state: e_sword
+
+- type: stealTargetGroup
+  id: ClothingBeltKatanaSheathFilledHoS
+  name: antique katana sheaths
+  sprite:
+    sprite: Nyanotrasen/Clothing/Belt/katanasheath.rsi
+    state: sheath
 
 - type: stealTargetGroup
   id: RubberStampNotary

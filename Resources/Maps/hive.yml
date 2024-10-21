@@ -71851,7 +71851,7 @@ entities:
       pos: 4.5,-1.5
       parent: 1
     - type: FaxMachine
-      name: 'Head of Personnel '
+      name: 'Resource Coordinator'
   - uid: 2125
     components:
     - type: Transform
@@ -125785,7 +125785,7 @@ entities:
         In order to transport resources to the supply distribution center consult the logistics officer to set up a portal between stations. They have been given a handheld teleportation device.
 
 
-        -CentComm Logistics Administration
+        -CorpCOl Logistics Administration
   - uid: 25574
     components:
     - type: Transform
@@ -125794,13 +125794,13 @@ entities:
     - type: Paper
       content: >2-
 
-        Official Nanotrasen Memo:
+        Official CorpCol Memo:
 
 
         In order to transport resources to the supply distribution center consult the logistics officer to set up a portal between stations. They have been given a handheld teleportation device.
 
 
-        -CentComm Logistics Administration
+        -CorpCol Logistics Administration
   - uid: 25758
     components:
     - type: Transform
@@ -171024,17 +171024,6 @@ entities:
     components:
     - type: Transform
       pos: 82.52527,10.611163
-      parent: 1
-- proto: WeaponShotgunBulldog
-  entities:
-  - uid: 22088
-    components:
-    - type: MetaData
-      desc: NanoTrasen's attempt at recreating the Syndicate's infamous bulldog, an automatic drum-fed shotgun. The design was rejected for full distribution because it was "More of a rip-off then a remake." Uses .50 shotgun shells.
-      name: HoS's Prototype Pitbull
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 78.53835,14.484081
       parent: 1
 - proto: WeaponTurretSyndicateBroken
   entities:

@@ -3,9 +3,6 @@
   name: job-name-boxer
   description: job-description-boxer
   playTimeTracker: JobBoxer
-  requirements:
-    - !type:CharacterOverallTimeRequirement
-      min: 7200 #DeltaV 2 hours
   startingGear: BoxerGear
   icon: "JobIconBoxer"
   supervisors: job-supervisors-hop
@@ -22,6 +19,7 @@
           Blunt: 1.5
           Slash: 1.5
           Piercing: 1.5
+  setPreference: false # WYPT-14
 
 - type: startingGear
   id: BoxerGear

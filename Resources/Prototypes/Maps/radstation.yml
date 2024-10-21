@@ -1,0 +1,52 @@
+- type: gameMap
+  id: Rad
+  mapName: 'RadStation'
+  mapPath: /Maps/radstation.yml
+  minPlayers: 35
+  stations:
+    RadStation:
+      stationProto: StandardNanotrasenStation
+      components:
+        - type: StationEmergencyShuttle
+          emergencyShuttlePath: /Maps/Shuttles/emergency_neol.yml
+        - type: StationNameSetup
+          mapNameTemplate: '{0} RadStation {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          overflowJobs:
+            - Passenger
+          availableJobs:
+            #service
+            Captain: [ 1, 1 ]
+            HeadOfPersonnel: [ 1, 1 ]
+            Bartender: [ 1, 1 ]
+            # Botanist: [ 3, 3 ]
+            Chef: [ 2, 2 ]
+            Librarian: [ 1, 1 ]
+            #engineering
+            ChiefEngineer: [ 1, 1 ]
+            AtmosphericTechnician: [ 4, 4 ]
+            StationEngineer: [ 3, 3 ]
+            #medical
+            ChiefMedicalOfficer: [ 1, 1 ]
+            MedicalDoctor: [ 3, 3 ]
+            MedicalIntern: [ 2, 2 ]
+            #science
+            ResearchDirector: [ 1, 1 ]
+            Scientist: [ 5, 5 ]
+            Borg: [ 1, 1 ]
+            Chaplain: [ 1, 1 ]
+            #security
+            HeadOfSecurity: [ 1, 1 ]
+            SecurityOfficer: [ 5, 5 ]
+            SecurityCadet: [ 2, 2 ]
+            #supply
+            CargoTechnician: [ 5, 5 ]
+            #civilian
+            Passenger: [ -1, -1 ]
+            Clown: [ 1, 1 ]
+            Mime: [ 1, 1 ]
+            Musician: [ 1, 1 ]
+            Reporter: [ 2, 2 ]

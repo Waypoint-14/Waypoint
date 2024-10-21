@@ -83,7 +83,7 @@
 - type: entity
   id: BedsheetCentcom
   parent: BedsheetBase
-  name: CentCom bedsheet
+  name: CorpCol bedsheet
   description: Woven with advanced nanothread for warmth as well as being very decorated, essential for all officials.
   components:
   - type: Sprite
@@ -273,7 +273,7 @@
 - type: entity
   id: BedsheetRD
   parent: BedsheetBase
-  name: Mystagogue's bedsheet # DeltaV - Epistemics Department - Replace Research Director with Mystagogue
+  name: Chief Science Officer's bedsheet
   description: It appears to have a beaker emblem, and is made out of fire-resistant material, although it probably won't protect you in the event of fires you're familiar with every day.
   components:
   - type: Sprite
@@ -307,8 +307,8 @@
 - type: entity
   id: BedsheetSyndie
   parent: BedsheetBase
-  name: syndicate bedsheet
-  description: It has a syndicate emblem and it has an aura of evil.
+  name: bedsheet
+  description: It has an evil emblem and it has an aura of evil.
   components:
   - type: Sprite
     state: sheetsyndie

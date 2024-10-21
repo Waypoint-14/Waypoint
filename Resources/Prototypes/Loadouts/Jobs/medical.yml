@@ -248,15 +248,6 @@
         - Chemist
         - Paramedic
         - ChiefMedicalOfficer
-    - !type:CharacterPlaytimeRequirement
-      tracker: JobChemist
-      min: 21600 # 6 hours
-    - !type:CharacterPlaytimeRequirement
-      tracker: JobMedicalDoctor
-      min: 21600 # 6 hours
-    - !type:CharacterDepartmentTimeRequirement
-      department: Medical
-      min: 216000 # 60 hours
   items:
     - ClothingUniformJumpskirtSeniorPhysician
 
@@ -274,15 +265,6 @@
         - Chemist
         - Paramedic
         - ChiefMedicalOfficer
-    - !type:CharacterPlaytimeRequirement
-      tracker: JobChemist
-      min: 21600 # 6 hours
-    - !type:CharacterPlaytimeRequirement
-      tracker: JobMedicalDoctor
-      min: 21600 # 6 hours
-    - !type:CharacterDepartmentTimeRequirement
-      department: Medical
-      min: 216000 # 60 hours
   items:
     - ClothingUniformJumpsuitSeniorPhysician
 
@@ -314,15 +296,6 @@
         - Chemist
         - Paramedic
         - ChiefMedicalOfficer
-    - !type:CharacterPlaytimeRequirement
-      tracker: JobChemist
-      min: 21600 # 6 hours
-    - !type:CharacterPlaytimeRequirement
-      tracker: JobMedicalDoctor
-      min: 21600 # 6 hours
-    - !type:CharacterDepartmentTimeRequirement
-      department: Medical
-      min: 216000 # 60 hours
   items:
     - ClothingHeadHatBeretSeniorPhysician
 

@@ -37,8 +37,8 @@ thief-backpack-category-chemistry-description =
 
 thief-backpack-category-syndie-name = syndie kit
 thief-backpack-category-syndie-description =
-    A set of items from a syndicate agent you've robbed
-    in the past. Includes an Agent ID card, Emag, a syndicate pAI,
+    A set of items from a hostile agent you've robbed
+    in the past. Includes an Agent ID card, Emag, a cracked pAI,
     and some strange red crystals.
 
 thief-backpack-category-sleeper-name = sleepwalker's kit

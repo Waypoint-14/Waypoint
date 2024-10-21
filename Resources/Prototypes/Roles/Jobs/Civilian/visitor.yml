@@ -3,9 +3,10 @@
   name: job-name-visitor
   description: job-description-visitor
   playTimeTracker: JobVisitor
-  canBeAntag: false
+  canBeAntag: true # WYPT-14
   icon: JobIconVisitor
-  setPreference: false
-  overrideConsoleVisibility: true
-  access:
-  - Maintenance
+  setPreference: true # WYPT-14
+  overrideConsoleVisibility: false #WYPT-14
+  weight: -100 # WYPT14
+  # access:
+  # - Maintenance

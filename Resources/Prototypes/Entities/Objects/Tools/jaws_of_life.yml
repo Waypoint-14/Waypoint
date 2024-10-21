@@ -64,7 +64,7 @@
       - JawsOfLife
 
 - type: entity
-  name: syndicate jaws of life
+  name: jaws of life
   parent: JawsOfLife
   id: SyndicateJawsOfLife
   description: Useful for entering the station or its departments.

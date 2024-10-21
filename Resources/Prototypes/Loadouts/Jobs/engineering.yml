@@ -37,15 +37,6 @@
     - !type:CharacterJobRequirement
       jobs:
         - StationEngineer
-    - !type:CharacterPlaytimeRequirement
-      tracker: JobAtmosphericTechnician
-      min: 21600 # 6 hours
-    - !type:CharacterPlaytimeRequirement
-      tracker: JobStationEngineer
-      min: 21600 # 6 hours
-    - !type:CharacterDepartmentTimeRequirement
-      department: Engineering
-      min: 216000 # 60 hours
   items:
     - ClothingUniformJumpskirtSeniorEngineer
 
@@ -60,15 +51,6 @@
     - !type:CharacterJobRequirement
       jobs:
         - StationEngineer
-    - !type:CharacterPlaytimeRequirement
-      tracker: JobAtmosphericTechnician
-      min: 21600 # 6 hours
-    - !type:CharacterPlaytimeRequirement
-      tracker: JobStationEngineer
-      min: 21600 # 6 hours
-    - !type:CharacterDepartmentTimeRequirement
-      department: Engineering
-      min: 216000 # 60 hours
   items:
     - ClothingUniformJumpsuitSeniorEngineer
 

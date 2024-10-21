@@ -3,7 +3,7 @@
 traitor-round-end-codewords = The codewords were: [color=White]{$codewords}[/color]
 traitor-round-end-agent-name = traitor
 
-objective-issuer-syndicate = [color=crimson]The Syndicate[/color]
+objective-issuer-syndicate = [color=crimson]Your handlers[/color]
 
 # Shown at the end of a round of Traitor
 
@@ -23,14 +23,14 @@ traitor-death-match-end-round-description-entry = {$originalName}'s PDA, with {$
 
 # TraitorRole
 traitor-role-greeting =
-    You are a syndicate agent.
+    You are a hostile agent, who sent you here is up to you.
     Your objectives and codewords are listed in the character menu.
     Use the uplink loaded into your PDA to buy the tools you'll need for this mission.
-    Death to Nanotrasen!
+    Death to the Corporate Coalition!
 traitor-role-codewords =
     The codewords are:
     {$codewords}.
-    Codewords can be used in regular conversation to identify yourself discretely to other syndicate agents.
+    Codewords can be used in regular conversation to identify yourself discretely to other agents.
     Listen for them, and keep them secret.
 traitor-role-uplink-code =
     Set your ringtone to the notes {$code} to lock or unlock your uplink.

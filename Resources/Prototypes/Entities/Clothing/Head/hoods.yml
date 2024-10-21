@@ -271,7 +271,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterCentcom
   noSpawn: true
-  name: Centcom winter coat hood
+  name: CorpCol winter coat hood
   description: A hood for keeping the central comander's head warm.
   components:
   - type: Sprite
@@ -415,7 +415,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterRD
   noSpawn: true
-  name: mystagogue's coat hood # DeltaV - Epistemics Department replacing Science
+  name: chief science officer's coat hood # DeltaV - Epistemics Department replacing Science
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodrd.rsi
@@ -459,7 +459,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterSyndie
   noSpawn: true
-  name: syndicate coat hood
+  name: coat hood
   components:
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hoodsyndicate.rsi

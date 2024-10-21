@@ -126,7 +126,7 @@
 - type: entity
   parent: IDCardStandard
   id: CaptainIDCard
-  name: captain ID card
+  name: station commander ID card
   components:
   - type: Sprite
     layers:
@@ -183,7 +183,7 @@
 - type: entity
   parent: IDCardStandard
   id: EngineeringIDCard
-  name: engineer ID card
+  name: maintenance ID card
   components:
   - type: Sprite
     layers:
@@ -530,7 +530,7 @@
 - type: entity
   parent: IDCardStandard
   id: HoPIDCard
-  name: head of personnel ID card
+  name: resoure coordinator ID card
   components:
   - type: Sprite
     layers:
@@ -584,7 +584,7 @@
 - type: entity
   parent: IDCardStandard
   id: RDIDCard
-  name: mystagogue ID card # DeltaV - Epistemics Department replacing Science
+  name: chief science officer's ID card
   components:
   - type: Sprite
     layers:
@@ -811,7 +811,7 @@
   - type: Item
     heldPrefix: blue
   - type: IdCard
-    jobTitle: Centcom Agent
+    jobTitle: CorpCol Agent
 
 - type: entity
   name: passenger ID card
@@ -938,7 +938,7 @@
 - type: entity
   parent: IDCardStandard
   id: SyndicateIDCard
-  name: syndicate ID card
+  name: operative ID card
   components:
   - type: Sprite
     layers:

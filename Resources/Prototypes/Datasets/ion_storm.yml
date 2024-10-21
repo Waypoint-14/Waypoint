@@ -128,7 +128,7 @@
   - SYNDIE-LOVING
   - TACTICAL
   - TACTICOOL
-  - SYNDICATE
+  - BOLITE HIVEMIND
   - THERMONUCLEAR
   - TINY
   - TRANSPARENT
@@ -214,7 +214,7 @@
   - BOTANY
   - BRAZIL
   - CANADA
-  - CENTCOM
+  - CORPCOL
   - CHEMICAL LAB
   - CHINA
   - CLOWN PLANET
@@ -348,8 +348,7 @@
   # DeltaV - Logistics Department - Replace Quartermaster with Logistics Officer
   - LOGISTICS OFFICERS
   # End of modified code
-  # DeltaV - Epistemics Department - Replace Research Director with Mystagogue
-  - MYSTAGOGUES
+  - Chief Science Officer
   # End of modified code
   - ROBOTICISTS
   - RODENTS
@@ -921,7 +920,7 @@
   - BOOGEYMEN
   - CAPITALISTS
   - CARP
-  - CENTCOM OFFICERS
+  - CORPCOL OFFICERS
   - CLOWNS
   - COMMUNISTS
   - CORGIS
@@ -966,7 +965,7 @@
   - SPACE PIRATES
   - SPACE SPIDERS
   - SPIDERS
-  - SYNDICATE AGENTS
+  - HOSTILE AGENTS
   - TERRORISTS
   - THIEVES
   - THINGS UNDER THE BED

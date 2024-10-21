@@ -48,7 +48,6 @@
           #science
             ResearchDirector: [ 1, 1 ]
             Scientist: [ 4, 6 ]
-            ResearchAssistant: [ 2, 3 ]
             Chaplain: [ 1, 1 ]
             Borg: [ 2, 3 ]
           #supply

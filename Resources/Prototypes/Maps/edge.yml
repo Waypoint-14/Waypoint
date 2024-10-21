@@ -48,7 +48,6 @@
             SecurityOfficer: [ 2, 4 ]
             SecurityCadet: [ 1, 4 ]
           #supply
-            Quartermaster: [ 1, 1 ]
             CargoTechnician: [ 2, 4 ]
           #civilian
             Passenger: [ -1, -1 ]

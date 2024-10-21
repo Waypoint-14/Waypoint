@@ -51,5 +51,5 @@
             Mime: [ 1, 1 ]
             Musician: [ 1, 2 ]
             Passenger: [ 3, 6 ]
-            Visitor: [-1, -1 ]
+            # Visitor: [-1, -1 ]
 
